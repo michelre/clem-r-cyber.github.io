@@ -1,0 +1,152 @@
+body {
+  margin: 10px;
+  width: 900px;
+}
+
+#container {
+  margin: auto;
+  width: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header {
+  width: 1500px;
+}
+
+h1 img {
+  width: auto;
+}
+
+.p1 {
+  margin-top: 0px;
+}
+.p1 h1 {
+  height: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: inline-start;
+  display: flex;
+}
+
+p {
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.texte {
+  margin-top: 55px;
+  flex-wrap: wrap;
+  font-size: 25px;
+  width: 650px;
+  height: 50px;
+}
+
+h1,
+nav {
+  margin-top: 20px;
+  font-size: 20px;
+}
+nav ul {
+  color: #0065fc;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav ul li {
+  height: 20px;
+  margin: 0 10px 10px 20px;
+}
+nav li {
+  padding-top: 20px;
+  border-top: 3px solid #0065fc;
+}
+
+button {
+  color: white;
+  height: 40px;
+  border: white;
+  border-radius: 15px 0px 0px 15px;
+  background: #0065fc;
+  width: 80px;
+}
+.recherche {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+button img .recherche {
+  display: flex;
+
+  height: 50px;
+  width: 50px;
+}
+button img {
+  padding-left: 20px;
+  display: flex;
+  align-content: center;
+  height: 20px;
+  width: 30px;
+}
+.rech {
+  font-family: "Raleway", sans-serif 300;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+input {
+  height: 40px;
+}
+h3 {
+  align-content: center;
+}
+
+h3,
+.menu {
+  display: flex;
+  text-align: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li img {
+  display: flex;
+  text-align: center;
+  padding-right: 10px;
+  width: 40px;
+  height: 25px;
+  border-radius: 80%;
+}
+li {
+  height: 30px;
+
+  text-align: center;
+  margin: 0 10px 0 10px;
+  list-style-type: none;
+}
+.menu ul li {
+  border: 3px solid #f2f2f2;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+}
+p img {
+  align-items: center;
+  margin: auto;
+  width: auto;
+  height: autopx;
+}
+
+.menu {
+}
+h3 {
+  align-items: center;
+  text-align: center;
+}
