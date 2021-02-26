@@ -308,11 +308,16 @@ main {
   height: auto;
 }
 
+/*SECTION*/
+
 section {
   background: salmon;
-  width: 1585px;
-  height: 2500px;
+  display: flex;
+  width: auto;
+  height: auto;
 }
+
+/* BLOC ARTICLE */
 
 article {
   margin: 20px;
@@ -322,7 +327,7 @@ article {
   height: 670px;
 }
 
-h2 {
+.h2-article {
   margin-left: 15px;
   padding-top: 15px;
   color: black;
@@ -330,13 +335,16 @@ h2 {
 
 #bloc-article {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   background: yellow;
   margin: auto;
   margin-left: 10px;
   width: 750px;
-  height: 570px;
+  height: 600px;
 }
+
+/* AUBERGE LA CANNEBIERE*/
 
 .auberge-cannebiere {
   margin: auto;
@@ -344,7 +352,12 @@ h2 {
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+
+.auberge-cannebiere:hover {
+  scale: 1.02;
 }
 
 .cannebiere {
@@ -368,13 +381,19 @@ h2 {
   line-height: 1px;
 }
 
+/* HOTEL DU PORT*/
+
 .hotel-port {
   margin: auto;
   margin-top: 35px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+.hotel-port:hover {
+  scale: 1.02;
 }
 
 .du-port {
@@ -398,13 +417,20 @@ h2 {
   line-height: 1px;
 }
 
+/* HOTEL LES MOUETTES*/
+
 .hotel-mouettes {
   margin: auto;
   margin-top: 35px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+
+.hotel-mouettes:hover {
+  scale: 1.02;
 }
 
 .les-mouettes {
@@ -428,13 +454,19 @@ h2 {
   line-height: 1px;
 }
 
+/* HOTEL DE LA MER*/
+
 .hotel-mer {
   margin: auto;
   margin-top: 35px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+.hotel-mer:hover {
+  scale: 1.02;
 }
 
 .la-mer {
@@ -458,13 +490,19 @@ h2 {
   line-height: 1px;
 }
 
+/* AUBERGE LE PANIER*/
+
 .auberge-panier {
   margin: auto;
   margin-top: 35px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+.auberge-panier:hover {
+  scale: 1.02;
 }
 
 .h-panier {
@@ -488,13 +526,19 @@ h2 {
   line-height: 1px;
 }
 
+/* HOTEL CHEZ AMINA*/
+
 .hotel-amina {
   margin: auto;
   margin-top: 35px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
   background: white;
+}
+.hotel-amina:hover {
+  scale: 1.02;
 }
 
 .h-amina {
@@ -522,28 +566,217 @@ h2 {
   font-size: 20px;
   margin-top: 20px;
 }
+/* ASIDE*/
 
-section.section-aside {
-  display: flex;
+#section-aside {
+  width: 600px;
   margin: 20px;
-  justify-items: flex-start;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 670px;
+  background: #f2f2f2;
 }
 
-.section-aside {
-  display: flex;
-  margin: 20px;
-  width: 400px;
-  height: auto;
-  background: gray;
+.h2-aside {
+  margin-left: 15px;
+  padding-top: 15px;
+  color: black;
 }
 
-#bloc-aside {
+.bloc-aside {
   margin: auto;
-
-  width: 250px;
-  height: 250px;
-  background: yellowgreen;
+  width: 570px;
+  height: 600px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  background: yellowgreen;
+}
+
+/* HOTEL LE SOLEIL DU MATIN */
+
+.hotel-du-matin {
+  margin-top: 10px;
+  margin-left: 90px;
+  display: flex;
+  align-content: center;
+  width: 370px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+}
+.hotel-du-matin:hover {
+  scale: 1.02;
+}
+
+.hotel-matin {
+  margin: auto;
+  margin-left: 6px;
+  margin-top: 6px;
+  border-radius: 15px 0px 0px 15px;
+  align-items: flex-start;
+}
+
+.div-p-du-matin {
+  margin-top: 5px;
+  width: 180px;
+  height: 170px;
+}
+
+.p-h-matin {
+  font-size: 17px;
+  margin-left: 20px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-nuit-h-matin {
+  text-align-last: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* AU COEUR DE L'EAU CHAMBRE D'HOTEL*/
+
+.chambre-hotes-coeur-de-eau {
+  margin-top: 10px;
+  margin-left: 90px;
+  display: flex;
+  align-content: center;
+  width: 370px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+}
+.chambre-hotes-coeur-de-eau:hover {
+  scale: 1.02;
+}
+
+.hotel-coeur-de-eau {
+  margin: auto;
+  margin-left: 6px;
+  margin-top: 6px;
+  border-radius: 15px 0px 0px 15px;
+  align-items: flex-start;
+}
+
+.div-p-coeur-eau {
+  margin-top: 5px;
+  width: 180px;
+  height: 170px;
+}
+.p-coeur-eau {
+  font-size: 17px;
+  margin-left: 20px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p-nuit-coeur-eau {
+  text-align-last: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* HOTEL TOUT BLEU ET BLANC*/
+
+.hotel-tout-bleu-blanc {
+  margin-top: 10px;
+  margin-left: 90px;
+  display: flex;
+  align-content: center;
+  width: 370px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+}
+
+.hotel-tout-bleu-blanc:hover {
+  scale: 1.02;
+}
+
+.hotel-bleu-blanc {
+  margin: auto;
+  margin-left: auto;
+  margin-top: auto;
+  border-radius: 15px 0px 0px 15px;
+  align-items: flex-start;
+}
+.div-p-bleu-blanc {
+  margin-top: 5px;
+  width: 180px;
+  height: 170px;
+}
+
+.p-h-bleu-blanc {
+  font-size: 17px;
+  margin-left: 20px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-nuit-h-bleu-blanc {
+  text-align-last: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*etoile notation*/
+
+.rating {
+  margin-left: 10px;
+}
+
+.rating a {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.4s;
+}
+.rating a:hover,
+.rating a:focus {
+  color: #9dbceb;
+  cursor: pointer;
+}
+
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+  color: #0065fc;
+}
+/*etoile aside notation*/
+.rating-aside {
+  margin-left: 10px;
+  padding-top: 30px;
+}
+
+.rating-aside a {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.4s;
+}
+.rating-aside a:hover,
+.rating-aside a:focus {
+  color: #9dbceb;
+  cursor: pointer;
+}
+
+.rating-aside a:hover ~ a,
+.rating-aside a:focus ~ a {
+  background-color: turquoise;
+  color: #0065fc;
 }

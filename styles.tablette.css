@@ -43,4 +43,11 @@
     margin-left: 19px;
     margin-right: 13px;
   }
+  section {
+    display: block;
+  }
+
+  #section-aside {
+    margin-left: 110px;
+  }
 }
