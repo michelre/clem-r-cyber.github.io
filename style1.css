@@ -37,6 +37,7 @@ p {
 }
 
 .texte {
+  display: flex;
   margin-top: 55px;
   flex-wrap: wrap;
   font-size: 25px;
@@ -144,8 +145,6 @@ p img {
   height: autopx;
 }
 
-.menu {
-}
 h3 {
   align-items: center;
   text-align: center;

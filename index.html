@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,
-wght@0,100;0,200;0,300;0,800;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style1.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <link
+  rel="stylesheet"
+  media="screen and (max-width: 960px)" href="styles.tablette.css"
+/>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,37 +21,95 @@ wght@0,100;0,200;0,300;0,800;1,100;1,200;1,300;1,400&display=swap" rel="styleshe
     <div class="p1">
    <p class="logo"><h1><img src="images/logo/Reservia@3x.png" alt="Logo Reservia"></h1></p>
    <nav>
-    <ul>
+     <div>
+    <ol class="nav">
       <li>Hebergements</li>
       <li>Activites</li>
       <li>S'inscrire</li>
-    </ul>
+    </ol>
+  </div>
   </nav></h1>
-  
-   <p class="texte"><b> Trouvez votre hebergement pour des vacances de reve </b><br>En plein centre ville ou en pleine nature</p>
+  <div>
+   <p class="texte"><b> Trouvez votre hebergement pour des vacances de reve </b><br><small> En plein centre ville ou en pleine nature</small></p></div>
    </div>
    <div class="recherche">
-    <button><img src="images/logo/positionnement.png" alt="maps"></i></button>
+    <button class="position"><img src="images/logo/positionnement.png" alt="maps"></button>
     <input type="search" class="type-search" placeholder="Marseille, France" name="search">
     <button type="submit" class="rech">Recherche</button>
    </div>
    <div class="menu">
 
-     <h3>Filtres</h3>
-     
-     <ul>
-       <li><img src="images/logo/billet.png" alt="cash"> Economique</li>
-       <li><img src="images/logo/humain.png" alt="homme">Familial</li>
-       <li><img src="images/logo/coeur.png" alt="coeur">Romantique</li>
-       <li><img src="images/logo/chien.png" alt="chien">Animaux autorises</li>
-     </ul>
     
+     <div id="img">
+    
+     <ul>
+       <p class="filtres">Filtres</p>
+       <li><i class="cercle"></i><img src="images/logo/billet.png" alt="cash"><p>Economique</p> </li>
+       <li><i class="cercle"></i><img src="images/logo/humain.png" alt="homme"><p>Familial</p> </li>
+       <li><i class="cercle"></i><img src="images/logo/coeur.png" alt="coeur"><p>Romantique</p> </li>
+       <li><i class="cercle"></i><img src="images/logo/chien.png" alt="chien"><p>Animaux autorises</p> </li>
+     </ul>
+    </div>
     </div>
     <div class="info">
-      <p><i class="fas fa-info-circle"></i><img src="images/logo/i.png" alt="info">Plus de 500 logements sont disponibles dans cette ville</p>
+      <p class="logo-info"><i class="fas fa-info-circle"></i><img src="images/logo/i.png" alt="info">Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
-    
   </header>
 </div>
+
+<main>
+  <section>
+    <article>
+      <h2> <strong>Hebergement a Marseille</strong>
+        <div id="bloc-article">
+        <div class="auberge-cannebiere">
+          <div>
+          <img class="cannebiere" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" width="210px" height="110px" alt="Auberge la Cannebiere">
+          <p class="p-auberge-cannebiere"> <strong>Auberge la Cannebiere</strong> </p>  <p class="p-nuit-cannebiere"> Nuit a partir de <b>25$</b> </p>
+        </div>
+        </div>
+        <div class="hotel-port">
+          <img class="du-port" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"width="210px" height="110px" alt="Hotel du port">
+          <p class="p-hotel-port"> <strong>Hotel du Port</strong> </p>  <p class="p-nuit-port"> Nuit a partir de <b>52$</b> </p>
+        </div>
+        <div class="hotel-mouettes">
+          <img class="les-mouettes" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"width="210px" height="110px" alt="Hotel les mouettes">
+          <p class="p-les-mouettes "> <strong>Hotel les Mouettes</strong> </p>  <p class="p-nuit-mouettes"> Nuit a partir de <b>76$</b> </p>
+        </div>
+        <div class="hotel-mer">
+         <img class="la-mer" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"width="210px" height="110px" alt="Hotel de la mer"> 
+         <p class="p-la-mer"> <strong>Hotel de la Mer</strong> </p>  <p class="p-nuit-mer"> Nuit a partir de <b>46$</b> </p>
+        </div>
+        <div class="auberge-panier">
+          <img class="h-panier" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"width="210px" height="110px" alt="Auberge le Panier">
+          <p class="p-auberge-panier"> <strong>Auberge le Panier</strong> </p>  <p class="p-nuit-panier"> Nuit a partir de <b>23$</b> </p>
+        </div>
+        <div class="hotel-amina">
+          <img class="h-amina" src="images/hebergements/4_small//febrian-zakaria-M6S1WvfW68A-unsplash.jpg"width="210px" height="110px" alt="Hotel chez Amina">
+          <p class="p-amina"> <strong>Hotel chez Amina</strong> </p>  <p class="p-nuit-amina"> Nuit a partir de <b>96$</b> </p>
+        </div>
+      </div>
+      <p class="afficher-plus"><b>Afficher plus</b> </p>
+      </h2>
+      </article>
+      <aside>
+        <section class="section-aside">
+        <h2><strong>Les plus populaires</strong>
+          <div id="bloc-aside">
+            <div class="fond aside">
+
+
+            </div>
+          </div>
+        </h2>
+      </section>
+      </aside>
+  </section>
+  
+   
+  
+  
+</main>
+  
 </body>
 </html>

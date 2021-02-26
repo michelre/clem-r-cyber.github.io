@@ -1,0 +1,549 @@
+body {
+  display: block;
+  max-width: 1600px;
+  min-width: 1280px;
+  max-height: auto;
+  margin: 0%;
+  padding: 0%;
+}
+
+#comtainer {
+  background: greenyellow;
+
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  max-width: auto;
+  max-height: auto;
+  min-width: 1280px;
+}
+
+header {
+  width: auto;
+  min-width: 1280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* header */
+
+.p1 {
+  display: flex;
+  width: 1280px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+.p1 > div:nth-child(5) {
+  margin-top: -100px;
+
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.p1 > nav:nth-child(4) {
+  margin-right: 500px;
+  margin-top: 0px;
+}
+
+h1 {
+  height: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.nav {
+  margin-left: 206%;
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+  float: inline-start;
+}
+nav ol {
+  float: inline-start;
+  margin: 0%;
+  color: #0065fc;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+ol li:hover {
+  color: #9dbceb;
+}
+
+.nav li {
+  height: 20px;
+  margin: 0 10px 10px 20px;
+  padding-top: 20px;
+  border-top: 3px solid;
+  align-content: center;
+}
+
+.texte {
+  margin-left: 20px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  height: 50px;
+}
+
+.recherche {
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -9px;
+  padding-bottom: 30px;
+  display: flex;
+  height: 50px;
+}
+
+button.position {
+  border-radius: 15px 0px 0px 15px;
+  height: 50px;
+}
+
+button.rech {
+  background: #0065fc;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 0px 15px 15px 0px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: #deebff;
+  color: black;
+}
+
+.position img {
+  height: 30px;
+}
+
+input {
+  height: 50px;
+}
+
+button {
+  border-radius: 15 0 0 15px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.filtres {
+  position: inherit;
+  font-size: 25px;
+}
+
+.cercle {
+  position: static;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #deebff;
+}
+
+ul {
+  margin-right: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#img,
+ul li {
+  justify-content: center;
+  border: 3px solid #f2f2f2;
+  margin: 0 10px 10px;
+  border-radius: 30px;
+}
+div #img {
+  border: none;
+}
+#img {
+  width: 920px;
+  height: 50px;
+  align-items: center;
+}
+#img > ul:nth-child(1) {
+  margin-right: -20px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(2) {
+  width: 180px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(4) {
+  width: 180px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(3) {
+  width: 180px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(5) {
+  width: 180px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(2) > img:nth-child(1) {
+  padding-left: 0px;
+  margin-right: 17px;
+  padding-right: 0px;
+  margin-left: -43px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(2) > img:nth-child(2) {
+  margin-left: -34px;
+}
+#img > ul:nth-child(1) > li:nth-child(2) > p:nth-child(3) {
+  margin-left: 29px;
+  margin-right: 27px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(3) > img:nth-child(1) {
+  margin-left: -64px;
+  margin-right: 26px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(3) > img:nth-child(2) {
+  margin-left: -33px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(3) > p:nth-child(3) {
+  margin-left: 40px;
+  margin-right: 49px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(1) {
+  margin-left: -43px;
+  margin-right: 20px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(2) {
+  margin-left: -34px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(4) > p:nth-child(3) {
+  margin-left: 30px;
+  margin-right: 28px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(5) {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 50px;
+  width: 200px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(1) {
+  margin-left: -12px;
+  margin-right: 9px;
+}
+
+#img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(2) {
+  margin-left: -34px;
+}
+#img > ul:nth-child(1) > li:nth-child(5) > p:nth-child(3) {
+  height: 12px;
+  margin-left: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+ul li img {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2px;
+  left: 1px;
+  border-radius: inherit;
+}
+
+nav ul {
+  color: #deebff;
+  font-size: 1.5em;
+
+  background: rgb(118, 59, 228);
+}
+
+ul li {
+  font-family: "Raleway 400", sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+p.logo-info {
+  align-content: center;
+}
+.info img {
+  margin-top: 5px;
+  height: 20px;
+}
+
+/* main */
+
+main {
+  background: saddlebrown;
+  width: 1585px;
+  height: auto;
+}
+
+section {
+  background: salmon;
+  width: 1585px;
+  height: 2500px;
+}
+
+article {
+  margin: 20px;
+  background: #f2f2f2;
+  border-radius: 15px;
+  width: 800px;
+  height: 670px;
+}
+
+h2 {
+  margin-left: 15px;
+  padding-top: 15px;
+  color: black;
+}
+
+#bloc-article {
+  display: flex;
+  flex-wrap: wrap;
+  background: yellow;
+  margin: auto;
+  margin-left: 10px;
+  width: 750px;
+  height: 570px;
+}
+
+.auberge-cannebiere {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.cannebiere {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.p-auberge-cannebiere {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-cannebiere {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.hotel-port {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.du-port {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.p-hotel-port {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-port {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.hotel-mouettes {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.les-mouettes {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.p-les-mouettes {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-mouettes {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.hotel-mer {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.la-mer {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.p-la-mer {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-mer {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.auberge-panier {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.h-panier {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.p-auberge-panier {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-panier {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.hotel-amina {
+  margin: auto;
+  margin-top: 35px;
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background: white;
+}
+
+.h-amina {
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+.p-amina {
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Raleway 400", sans-serif;
+}
+
+.p-nuit-amina {
+  margin-left: 5px;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Raleway+Dots", sans-serif;
+  line-height: 1px;
+}
+
+.afficher-plus {
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+section.section-aside {
+  display: flex;
+  margin: 20px;
+  justify-items: flex-start;
+}
+
+.section-aside {
+  display: flex;
+  margin: 20px;
+  width: 400px;
+  height: auto;
+  background: gray;
+}
+
+#bloc-aside {
+  margin: auto;
+
+  width: 250px;
+  height: 250px;
+  background: yellowgreen;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
