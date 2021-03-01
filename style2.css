@@ -166,6 +166,11 @@ ul li {
   margin: 0 10px 10px;
   border-radius: 30px;
 }
+
+#img,
+ul li:hover {
+  scale: 1.05;
+}
 div #img {
   border: none;
 }
@@ -303,7 +308,6 @@ p.logo-info {
 /* main */
 
 main {
-  background: saddlebrown;
   width: 1585px;
   height: auto;
 }
@@ -311,7 +315,6 @@ main {
 /*SECTION*/
 
 section {
-  background: salmon;
   display: flex;
   width: auto;
   height: auto;
@@ -337,7 +340,6 @@ article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: yellow;
   margin: auto;
   margin-left: 10px;
   width: 750px;
@@ -560,11 +562,11 @@ article {
   font-family: "Raleway+Dots", sans-serif;
   line-height: 1px;
 }
+/* AFFICHER PLUS*/
 
 .afficher-plus {
   margin-left: 15px;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 15px;
 }
 /* ASIDE*/
 
@@ -591,7 +593,6 @@ article {
   height: 600px;
   display: flex;
   flex-wrap: wrap;
-  background: yellowgreen;
 }
 
 /* HOTEL LE SOLEIL DU MATIN */
@@ -777,6 +778,173 @@ article {
 
 .rating-aside a:hover ~ a,
 .rating-aside a:focus ~ a {
-  background-color: turquoise;
   color: #0065fc;
+}
+
+/* ACTIVITES A MARSEILLE*/
+
+#bloc-activites {
+  align-content: center;
+  align-items: inherit;
+  width: 1530px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* TITRE*/
+
+.titre-activites {
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* VIEUX-PORT*/
+
+.div-vieux-port {
+  margin: 60px 30px 30px 80px;
+}
+
+.div-vieux-port:hover {
+  scale: 1.01;
+}
+
+.vieux-port {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.p-vieux-port {
+  font-size: 12px;
+  font-family: raleway, sans-serif;
+  text-align: left;
+}
+
+/* BLOC IMAGE 1 pomegues-frioul*/
+
+.bloc-image-1 {
+  height: 500px;
+  margin: 30px 30px 30px 80px;
+}
+
+/*FORT-DE-POMEGUES*/
+
+.div-fort-de-pomegues {
+  height: 290px;
+}
+.div-fort-de-pomegues:hover {
+  scale: 1.01;
+}
+
+.fort-de-pomegues {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  margin: auto;
+}
+.p-fort-de-pomegues {
+  font-size: 12px;
+  font-family: raleway, sans serif;
+}
+
+/*ILES DU FRIOUL*/
+
+.div-iles-du-frioul {
+  margin-top: -50px;
+  height: 250px;
+}
+
+.div-iles-du-frioul:hover {
+  scale: 1.01;
+}
+
+.iles-du-frioul {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.p-iles-du-frioul {
+  font-size: 12px;
+  font-family: raleway, sans serif;
+}
+
+/* PARC NATIONAL DES CALANQUES*/
+
+.div-parc-national-des-calanques {
+  margin: 60px 30px 30px 80px;
+  height: 400px;
+}
+
+.div-parc-national-des-calanques:hover {
+  scale: 1.01;
+}
+
+.parc-national-des-calanques {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.p-parc-national-des-calanques {
+  font-size: 12px;
+  font-family: raleway, sans serif;
+}
+
+/* BLOC IMAGE 2 notre dame de la garde - parc longchamp*/
+
+.bloc-image-2 {
+  height: 500px;
+  margin: 30px 30px 30px 80px;
+}
+
+/*NOTRE DAME DE LA GARDE*/
+
+.div-notre-dame-de-la-garde {
+  height: 280px;
+}
+
+.div-notre-dame-de-la-garde:hover {
+  scale: 1.01;
+}
+
+.notre-dame-de-la-garde {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.p-notre-dame-de-la-garde {
+  font-size: 12px;
+  font-family: raleway, sans serif;
+}
+
+/*PARC LONGCHAMP*/
+
+.div-parc-longchamp {
+  margin-top: -25px;
+}
+
+.div-parc-longchamp:hover {
+  scale: 1.01;
+}
+
+.parc-Longchamp {
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.p-parc-longchamp {
+  font-size: 12px;
+  font-family: raleway !important; 
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+h4 {
+  text-align-last: center;
+  width: 130px;
+  flex-wrap: nowrap;
+}
+h4:hover {
+  border-bottom: black solid 2px;
 }

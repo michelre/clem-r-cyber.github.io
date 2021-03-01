@@ -1,4 +1,9 @@
 @media screen and (max-width: 960px) {
+  main {
+    height: auto;
+    width: 960px;
+  }
+
   .nav {
     margin-left: auto;
     margin-left: 30%;
@@ -49,5 +54,14 @@
 
   #section-aside {
     margin-left: 110px;
+  }
+
+  #bloc-activites {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-parc-national-des-calanques {
+    width: 300px;
   }
 }
