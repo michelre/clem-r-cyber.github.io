@@ -1,10 +1,14 @@
 body {
   display: block;
+  min-width: 768px;
   max-width: 1600px;
-  min-width: 1280px;
   max-height: auto;
   margin: 0%;
   padding: 0%;
+}
+
+body > main:nth-child(2) > section:nth-child(1) {
+  margin-left: 48px;
 }
 
 #comtainer {
@@ -39,8 +43,14 @@ header {
   height: 200px;
   flex-wrap: wrap;
 }
+
+.p1 > h1:nth-child(2) > img:nth-child(1) {
+  margin-left: 10px;
+}
+
 .p1 > div:nth-child(5) {
-  margin-top: -100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   margin-right: 0px;
   margin-bottom: 0px;
@@ -58,12 +68,15 @@ h1 {
 }
 
 .nav {
-  margin-left: 206%;
+  margin-top: -85px;
+  margin-left: 300%;
+  margin-bottom: 0%;
   font-size: 20px;
   display: flex;
   list-style-type: none;
-  float: inline-start;
 }
+/*float: inline-start;*/
+
 nav ol {
   float: inline-start;
   margin: 0%;
@@ -87,7 +100,7 @@ ol li:hover {
 
 .texte {
   margin-left: 20px;
-  margin-top: 70px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-size: 25px;
   height: 50px;
@@ -95,8 +108,8 @@ ol li:hover {
 
 .recherche {
   align-items: center;
-  margin-top: -40px;
-  margin-left: -9px;
+  margin-top: -25px;
+  margin-left: -5px;
   padding-bottom: 30px;
   display: flex;
   height: 50px;
@@ -121,8 +134,8 @@ button:hover {
   color: black;
 }
 
-.position img {
-  height: 30px;
+.position > img:nth-child(1) {
+  height: 20px;
 }
 
 input {
@@ -140,7 +153,7 @@ button {
 
 .filtres {
   position: inherit;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .cercle {
@@ -261,12 +274,13 @@ div #img {
 }
 #img > ul:nth-child(1) > li:nth-child(5) > p:nth-child(3) {
   height: 12px;
-  margin-left: 14px;
+  margin-left: 21px;
   margin-top: 16px;
   margin-bottom: 16px;
   margin-right: 12px;
   padding-left: 0px;
   padding-right: 0px;
+  width: 140px;
 }
 
 ul li img {
@@ -297,12 +311,19 @@ ul li {
   align-content: center;
 }
 
+.info {
+  margin-left: 10px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+}
+
 p.logo-info {
-  align-content: center;
 }
 .info img {
-  margin-top: 5px;
-  height: 20px;
+  height: 18px;
 }
 
 /* main */
@@ -709,8 +730,8 @@ article {
 
 .hotel-bleu-blanc {
   margin: auto;
-  margin-left: auto;
-  margin-top: auto;
+  margin-left: 6px;
+  margin-top: 6px;
   border-radius: 15px 0px 0px 15px;
   align-items: flex-start;
 }
@@ -783,13 +804,19 @@ article {
 
 /* ACTIVITES A MARSEILLE*/
 
-#bloc-activites {
-  align-content: center;
-  align-items: inherit;
-  width: 1530px;
+body > main:nth-child(2) > section:nth-child(2) {
+  justify-content: center;
+  margin-left: 0%;
+}
+
+div#activites {
+  height: 30px;
+}
+
+.bloc-activites {
+  width: 1400px;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
 }
 /* TITRE*/
 
@@ -931,7 +958,7 @@ article {
 
 .p-parc-longchamp {
   font-size: 12px;
-  font-family: raleway !important; 
+  font-family: raleway !important;
 }
 
 footer {
@@ -941,10 +968,6 @@ footer {
 }
 
 h4 {
-  text-align-last: center;
   width: 130px;
   flex-wrap: nowrap;
-}
-h4:hover {
-  border-bottom: black solid 2px;
 }

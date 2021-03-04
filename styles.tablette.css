@@ -1,12 +1,27 @@
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
+  
+  body{
+    max-width: 768px;
+
+  }
+  header{
+    max-width: 768px;
+    height: 450px;
+  }
+  html{
+    max-width: 768px;
+  }
+
+
+  
   main {
     height: auto;
     width: 960px;
   }
 
   .nav {
-    margin-left: auto;
-    margin-left: 30%;
+    margin-top: -17%;
+    margin-left: 39%;
   }
 
   #img > ul:nth-child(1) {
@@ -28,15 +43,22 @@
     justify-items: center;
     align-items: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
+
+
+  #img > ul:nth-child(1) {
+    width: 460px;
+    margin-left: 127px;
+    height: 197px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   }
+   
 
   #img > ul:nth-child(1) > li:nth-child(5) {
     margin-right: 10px;
     height: 50px;
-  }
-  div.info {
-    margin-top: 30px;
   }
 
   #img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(1) {
@@ -48,6 +70,24 @@
     margin-left: 19px;
     margin-right: 13px;
   }
+
+  body > main:nth-child(2) > section:nth-child(1) {
+    margin-left: 0px;
+   }
+   
+
+  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
+    margin-left: 0px;
+    margin-top: 121px;
+   }
+
+   .info > p:nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+   }
+   
+   
   section {
     display: block;
   }
@@ -64,4 +104,110 @@
   .div-parc-national-des-calanques {
     width: 300px;
   }
+
+  ol.nav{
+    justify-content: flex-end;
+
+    padding-left: 200px;
+    margin-top: -85px;
+    margin-left: 39%;
+  }
+
+  ul{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul li{
+    height: 50px;
+    margin: 5px;
+    display: flex;
+
+  }
+
+  .recherche{
+    margin-left: 6%;
+  }
+
+  div.recherche{
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 620px;
+  }
+
+  div.info{
+    
+    display: flex;
+    flex-direction: 
+    flex-wrap: wrap;
+  }
+
+  .info{
+  
+      margin-top: 98px;
+      height: 68.4px;
+      width: 408px;
+      margin-bottom: -100px;
+      margin-left: 148px;
+    
+     
+  }
+
+  .logo-info {
+    margin-top: -22px;
+   }
+   
+
+  .info > p:nth-child(2) {
+    margin-top: 0px;
+    margin-left: 24px;
+    width: 363px;
+   }
+   
+
+
+  #section-aside {
+    margin-left: 85px;
+   }
+
+   
+   .bloc-activites {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   }
+
+   .titre-activites {
+    margin-left: 10px;
+   }
+   
+   
+   .div-fort-de-pomegues {
+    margin-left: 365px;
+    margin-top: -488px;
+   }
+
+   .div-iles-du-frioul {
+    margin-left: 364px;
+    margin-top: -50px;
+   }
+   
+   .div-parc-national-des-calanques {
+    margin-top: -490px;
+    margin-left: 444px;
+    margin-right: 0px;
+   }
+   
+   .div-notre-dame-de-la-garde {
+    margin-top: -461px;
+   }
+   
+   body > footer:nth-child(3) {
+    margin-top: -200px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+   }
+   
+
 }

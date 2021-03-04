@@ -1,0 +1,262 @@
+@media screen and (max-width: 375px) {
+  h1 {
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  ol.nav {
+    margin-top: 11px;
+    margin-left: -35%;
+  }
+
+  p.texte {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .texte {
+    height: 80px;
+    width: 333.183px;
+    margin-top: 40px;
+  }
+  .p1 > div:nth-child(5) {
+    margin-top: 28px;
+  }
+
+  #img > ul:nth-child(1) {
+    margin-left: 92px;
+    height: 270px;
+    width: 383px;
+    margin-top: -67px;
+    margin-bottom: 0px;
+  }
+
+  .info > p:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 58.6px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    margin-top: -150px;
+    margin-right: -42px;
+  }
+
+  .info {
+    height: 100.6px;
+    width: 240px;
+    margin-top: -190px;
+    margin-left: 42px;
+  }
+
+  .logo-info {
+    margin-top: -92px;
+    margin-left: -37px;
+    margin-bottom: 101px;
+    margin-right: 0px;
+    width: 15px;
+    height: 17px;
+  }
+
+  .recherche {
+    width: 352px;
+    margin-top: 0px;
+    margin-right: 930px;
+    padding-top: 0px;
+  }
+
+  #hebergement {
+    text-align-last: center;
+    margin-top: 0px;
+  }
+
+  #bloc-article {
+    display: flex;
+    width: 375px;
+    height: 700px;
+    flex-wrap: wrap;
+  }
+  .afficher-plus {
+    width: 140.933px;
+  }
+
+  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
+    margin-top: 300px;
+    width: 390px;
+    height: 1584px;
+  }
+
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > aside:nth-child(2)
+    > section:nth-child(1) {
+    margin-left: -76px;
+    padding-left: 0px;
+  }
+
+  .hotel-du-matin {
+    margin-left: -12px;
+  }
+
+  #section-aside {
+    height: 800px;
+    width: 375px;
+    margin-left: 77px;
+  }
+
+  .chambre-hotes-coeur-de-eau {
+    margin-left: -12px;
+  }
+
+  .hotel-tout-bleu-blanc {
+    margin-left: -12px;
+  }
+
+  .h2-aside > strong:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 70px;
+  }
+
+  h2 .titre-activites {
+    text-align: center;
+
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .fort-de-pomegues {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .p-fort-de-pomegues > b:nth-child(1) {
+    margin-top: 0px;
+    margin-left: -2px;
+    height: 22px;
+    width: 111.367px;
+  }
+  .div-fort-de-pomegues {
+    margin-top: -488px;
+    margin-left: 205px;
+    padding-left: 0px;
+  }
+
+  .bloc-image-1 {
+    align-items: center;
+    margin-top: 450px;
+    margin-left: -280px;
+    width: 375px;
+  }
+
+  .bloc-image-2 {
+    margin-left: 85px;
+    margin-top: -38px;
+    width: 375px;
+  }
+
+  .parc-national-des-calanques {
+    margin-top: 417px;
+    margin-left: -209px;
+  }
+
+  .bloc-activites {
+    align-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 2050px;
+    margin-left: -480px;
+  }
+  .p-parc-national-des-calanques > b:nth-child(1) {
+    margin-left: -207px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+  .p-fort-de-pomegues > b:nth-child(1) {
+    margin-left: 15px;
+  }
+
+  .iles-du-frioul {
+    margin-top: 0px;
+    width: 212.1px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .p-iles-du-frioul > b:nth-child(1) {
+    margin-top: 5px;
+    height: 45.5px;
+    width: 150px;
+    margin-right: 0px;
+  }
+
+  .div-iles-du-frioul {
+    margin-left: 204px;
+  }
+
+  .notre-dame-de-la-garde {
+    margin-top: 41px;
+  }
+
+  .div-notre-dame-de-la-garde {
+    margin-left: 22px;
+    margin-top: -495px;
+  }
+
+  .parc-Longchamp {
+    margin-top: 34px;
+    margin-left: 0px;
+  }
+  .vieux-port {
+    margin-top: -63px;
+    margin-left: 0px;
+  }
+  .p-parc-longchamp {
+    margin-top: 0px;
+  }
+  .div-parc-longchamp {
+    margin-left: 21px;
+    margin-top: -25px;
+  }
+  .div-vieux-port {
+    margin-left: -63px;
+    margin-right: 0px;
+  }
+  .p-vieux-port > b:nth-child(1) {
+    margin-top: 0px;
+  }
+
+  footer {
+    text-align-last: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body > footer:nth-child(3) > div:nth-child(1) {
+    text-align: center;
+  }
+  body > footer:nth-child(3) {
+    width: 375px;
+  }
+  body > footer:nth-child(3) > div:nth-child(1) > h4:nth-child(2) {
+    margin-left: 25px;
+  }
+
+  body > footer:nth-child(3) > div:nth-child(1) {
+    margin-top: 0px;
+  }
+  body > footer:nth-child(3) > div:nth-child(2) > h4:nth-child(1) {
+    margin-left: 5px;
+  }
+}
