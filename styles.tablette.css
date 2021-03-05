@@ -1,19 +1,15 @@
-@media screen and (max-width: 768px) {
-  
-  body{
+@media screen and (min-width: 375px), (max-width: 768px) {
+  body {
     max-width: 768px;
-
   }
-  header{
+  header {
     max-width: 768px;
     height: 450px;
   }
-  html{
+  html {
     max-width: 768px;
   }
 
-
-  
   main {
     height: auto;
     width: 960px;
@@ -24,13 +20,11 @@
     margin-left: 39%;
   }
 
-  #img > ul:nth-child(1) {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    align-items: baseline;
-    padding: 0%;
+  .texte {
+    margin-left: 81px;
+    width: 583px;
+    margin-top: -74px;
+    text-align-last: center;
   }
   .menu {
     justify-items: center;
@@ -46,19 +40,32 @@
     flex-wrap: wrap;
   }
 
+  .p1 > h1:nth-child(2) > img:nth-child(1) {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
 
   #img > ul:nth-child(1) {
-    width: 460px;
-    margin-left: 127px;
+    align-items: center;
+    align-content: center;
+    width: 590px;
+    margin-left: 46px;
     height: 197px;
     margin-bottom: 0px;
-    margin-top: 0px;
-   }
-   
+    margin-top: -22px;
+    padding-left: 0px;
+  }
 
   #img > ul:nth-child(1) > li:nth-child(5) {
+    margin-top: 6px;
+    margin-left: 2px;
     margin-right: 10px;
     height: 50px;
+  }
+
+  #img > ul:nth-child(1) > li:nth-child(4) {
+    margin-top: 11px;
   }
 
   #img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(1) {
@@ -73,27 +80,29 @@
 
   body > main:nth-child(2) > section:nth-child(1) {
     margin-left: 0px;
-   }
-   
+  }
 
   body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
     margin-left: 0px;
     margin-top: 121px;
-   }
+  }
 
-   .info > p:nth-child(2) {
+  .info > p:nth-child(2) {
     margin-top: 30px;
     margin-bottom: 20px;
     padding-top: 0px;
-   }
-   
-   
+  }
+
   section {
     display: block;
   }
 
   #section-aside {
-    margin-left: 110px;
+    margin-left: 126px;
+  }
+
+  .bloc-aside {
+    margin-left: -1px;
   }
 
   #bloc-activites {
@@ -105,7 +114,7 @@
     width: 300px;
   }
 
-  ol.nav{
+  ol.nav {
     justify-content: flex-end;
 
     padding-left: 200px;
@@ -113,101 +122,87 @@
     margin-left: 39%;
   }
 
-  ul{
+  ul {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
   }
 
-  ul li{
+  ul li {
     height: 50px;
     margin: 5px;
     display: flex;
-
   }
 
-  .recherche{
+  .recherche {
+    margin-top: -9px;
     margin-left: 6%;
+    margin-right: 567px;
   }
 
-  div.recherche{
+  div.recherche {
     justify-content: center;
     margin-left: 0%;
     margin-right: 620px;
   }
 
-  div.info{
-    
+  div.info {
     display: flex;
-    flex-direction: 
     flex-wrap: wrap;
   }
 
-  .info{
-  
-      margin-top: 98px;
-      height: 68.4px;
-      width: 408px;
-      margin-bottom: -100px;
-      margin-left: 148px;
-    
-     
+  .info {
+    margin-top: 98px;
+    height: 68.4px;
+    width: 408px;
+    margin-bottom: -100px;
+    margin-left: 148px;
   }
 
   .logo-info {
     margin-top: -22px;
-   }
-   
+  }
 
   .info > p:nth-child(2) {
     margin-top: 0px;
     margin-left: 24px;
     width: 363px;
-   }
-   
+  }
 
-
-  #section-aside {
-    margin-left: 85px;
-   }
-
-   
-   .bloc-activites {
+  .bloc-activites {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-   }
+  }
 
-   .titre-activites {
+  .titre-activites {
     margin-left: 10px;
-   }
-   
-   
-   .div-fort-de-pomegues {
+  }
+
+  .div-fort-de-pomegues {
     margin-left: 365px;
     margin-top: -488px;
-   }
+  }
 
-   .div-iles-du-frioul {
+  .div-iles-du-frioul {
     margin-left: 364px;
     margin-top: -50px;
-   }
-   
-   .div-parc-national-des-calanques {
+  }
+
+  .div-parc-national-des-calanques {
     margin-top: -490px;
     margin-left: 444px;
     margin-right: 0px;
-   }
-   
-   .div-notre-dame-de-la-garde {
+  }
+
+  .div-notre-dame-de-la-garde {
     margin-top: -461px;
-   }
-   
-   body > footer:nth-child(3) {
+  }
+
+  body > footer:nth-child(3) {
     margin-top: -200px;
     margin-bottom: 0px;
     padding-top: 30px;
-   }
-   
-
+    margin-left: 3px;
+  }
 }

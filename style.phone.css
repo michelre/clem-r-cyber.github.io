@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 210px), (max-width: 375px) {
   h1 {
     justify-content: center;
   }
@@ -21,20 +21,33 @@
   }
 
   .texte {
+    margin-left: 5px;
     height: 80px;
-    width: 333.183px;
-    margin-top: 40px;
+    width: 365px;
+    margin-top: -74px;
+    margin-right: 6px;
   }
   .p1 > div:nth-child(5) {
     margin-top: 28px;
   }
 
+  .p1 > h1:nth-child(2) > img:nth-child(1) {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+
   #img > ul:nth-child(1) {
-    margin-left: 92px;
+    margin-left: 77px;
     height: 270px;
-    width: 383px;
-    margin-top: -67px;
+    width: 230px;
+    margin-top: -69px;
     margin-bottom: 0px;
+  }
+
+  #img > ul:nth-child(1) > li:nth-child(5) {
+    margin-top: 6px;
+    margin-left: 2px;
   }
 
   .info > p:nth-child(2) {
@@ -66,7 +79,7 @@
 
   .recherche {
     width: 352px;
-    margin-top: 0px;
+    margin-top: -9px;
     margin-right: 930px;
     padding-top: 0px;
   }
@@ -162,6 +175,10 @@
     margin-left: 85px;
     margin-top: -38px;
     width: 375px;
+  }
+
+  .bloc-aside {
+    margin-left: -1px;
   }
 
   .parc-national-des-calanques {

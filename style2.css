@@ -8,7 +8,7 @@ body {
 }
 
 body > main:nth-child(2) > section:nth-child(1) {
-  margin-left: 48px;
+  margin-left: 113px;
 }
 
 #comtainer {
@@ -57,7 +57,7 @@ header {
 }
 .p1 > nav:nth-child(4) {
   margin-right: 500px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -68,9 +68,9 @@ h1 {
 }
 
 .nav {
-  margin-top: -85px;
+  margin-top: -108px;
   margin-left: 300%;
-  margin-bottom: 0%;
+  margin-bottom: 19%;
   font-size: 20px;
   display: flex;
   list-style-type: none;
@@ -78,19 +78,28 @@ h1 {
 /*float: inline-start;*/
 
 nav ol {
+  text-decoration: none;
   float: inline-start;
   margin: 0%;
+  margin-bottom: 0%;
   color: #0065fc;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
 }
 
+ol a {
+  color: #0065fc;
+  text-decoration: none;
+}
+
 ol li:hover {
-  color: #9dbceb;
+  text-decoration: none;
+  color: #0042a5;
 }
 
 .nav li {
+  text-decoration: none;
   height: 20px;
   margin: 0 10px 10px 20px;
   padding-top: 20px;
@@ -100,15 +109,15 @@ ol li:hover {
 
 .texte {
   margin-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: -66px;
+  margin-bottom: 33px;
   font-size: 25px;
   height: 50px;
 }
 
 .recherche {
   align-items: center;
-  margin-top: -25px;
+  margin-top: -7px;
   margin-left: -5px;
   padding-bottom: 30px;
   display: flex;
@@ -117,7 +126,7 @@ ol li:hover {
 
 button.position {
   border-radius: 15px 0px 0px 15px;
-  height: 50px;
+  height: 40px;
 }
 
 button.rech {
@@ -126,7 +135,7 @@ button.rech {
   color: white;
   font-size: 20px;
   border-radius: 0px 15px 15px 0px;
-  height: 50px;
+  height: 40px;
 }
 
 button:hover {
@@ -139,7 +148,7 @@ button:hover {
 }
 
 input {
-  height: 50px;
+  height: 40px;
 }
 
 button {
@@ -152,6 +161,7 @@ button {
 }
 
 .filtres {
+  margin-top: 8px;
   position: inherit;
   font-size: 20px;
 }
@@ -321,7 +331,13 @@ ul li {
 }
 
 p.logo-info {
+  margin-left: 10px;
+  padding-left: 0px;
 }
+.info > p:nth-child(2) {
+  margin-left: 9px;
+}
+
 .info img {
   height: 18px;
 }
@@ -592,7 +608,7 @@ article {
 /* ASIDE*/
 
 #section-aside {
-  width: 600px;
+  width: 500px;
   margin: 20px;
   border-radius: 15px;
   display: flex;
@@ -609,7 +625,7 @@ article {
 }
 
 .bloc-aside {
-  margin: auto;
+  margin-left: -40px;
   width: 570px;
   height: 600px;
   display: flex;
@@ -651,6 +667,7 @@ article {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
+  font-family: "Raleway 200", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -660,6 +677,7 @@ article {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
+  font-family: "Raleway+Dots", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -698,6 +716,7 @@ article {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
+  font-family: "Raleway 200", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -706,6 +725,7 @@ article {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
+  font-family: "Raleway+Dots", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -745,6 +765,7 @@ article {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
+  font-family: "Raleway 400", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -754,6 +775,7 @@ article {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
+  font-family: "Raleway+Dots", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -764,7 +786,7 @@ article {
 }
 
 .rating a {
-  color: gray;
+  color: #0065fc;
   text-decoration: none;
   font-size: 15px;
   transition: color 0.4s;
@@ -775,18 +797,15 @@ article {
   cursor: pointer;
 }
 
-.rating a:hover ~ a,
-.rating a:focus ~ a {
-  color: #0065fc;
-}
 /*etoile aside notation*/
+
 .rating-aside {
   margin-left: 10px;
   padding-top: 30px;
 }
 
 .rating-aside a {
-  color: gray;
+  color: #0065fc;
   text-decoration: none;
   font-size: 15px;
   transition: color 0.4s;
@@ -795,11 +814,6 @@ article {
 .rating-aside a:focus {
   color: #9dbceb;
   cursor: pointer;
-}
-
-.rating-aside a:hover ~ a,
-.rating-aside a:focus ~ a {
-  color: #0065fc;
 }
 
 /* ACTIVITES A MARSEILLE*/
@@ -821,7 +835,7 @@ div#activites {
 /* TITRE*/
 
 .titre-activites {
-  margin: auto;
+  margin-left: 162px;
   margin-top: 40px;
 }
 
@@ -962,9 +976,14 @@ div#activites {
 }
 
 footer {
+  width: auto;
   display: flex;
   justify-content: space-around;
   align-content: center;
+}
+body > footer:nth-child(3) {
+  margin-right: -145px;
+  margin-left: -32px;
 }
 
 h4 {
