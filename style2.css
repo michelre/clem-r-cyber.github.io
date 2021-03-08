@@ -176,6 +176,7 @@ button {
 }
 
 ul {
+ 
   margin-right: 10px;
   align-items: center;
   display: flex;
@@ -184,6 +185,7 @@ ul {
 }
 #img,
 ul li {
+  list-style-type: none;
   justify-content: center;
   border: 3px solid #f2f2f2;
   margin: 0 10px 10px;
@@ -990,3 +992,5 @@ h4 {
   width: 130px;
   flex-wrap: nowrap;
 }
+
+
