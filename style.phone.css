@@ -3,7 +3,6 @@
   html {
     width:auto;
     height: auto;
-    background: rgb(230, 157, 157);
     display: flex;
     flex-wrap: wrap;
   }
@@ -62,7 +61,6 @@
   }
 
   #container {
-    background: teal;
     width: 375px;
     height: auto;
   }
@@ -71,19 +69,22 @@
     width: 375px;
     display: flex;
     flex-wrap: wrap;
-
-    background: thistle;
   }
   .p1 > h1:nth-child(2) > img:nth-child(1) {
     width: 80px;
     height: 38px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
+
+  .p1 > nav:nth-child(4) {
+    margin-top: 40px;
+   }
+   
 
   .p1 > div:nth-child(5) {
     height: 91px;
     width: 375px;
-    margin-top: 0px;
+    margin-top: 21px;
     padding-top: 0px;
     margin-bottom: -30px;
    }
@@ -96,7 +97,6 @@
     margin-left: 15px;
     width: 180px;
     height: 35px;
-    background: wheat;
   }
 
   .h2-aside{
@@ -117,17 +117,14 @@
 
   /* MENU NAVIGATION HEADER*/
   ol.nav {
-    border-bottom: 2px solid #deebff;
-
-    font-size: 25px;
+    font-size: 22px;
     width: 305px;
     display: flex;
     margin: 0px;
   }
-  ol.nav :hover {
-    border-bottom: none;
+  
 
-  }
+  
 
   .nav > a:nth-child(1) > li:nth-child(1) {
     text-align-last: center;
@@ -139,6 +136,11 @@
     line-height: 10px;
     margin-top: 0px;
     padding-top: 0px;
+  }
+
+  .nav > a:nth-child(1) > li:nth-child(1):hover{
+    color: #1842b4;
+    border-color:#1842b4;
   }
 
   .nav > a:nth-child(2) > li:nth-child(1) {
@@ -153,42 +155,47 @@
     margin-top: 0px;
     padding-top: 0px;
   }
+  .nav > a:nth-child(2) > li:nth-child(1):hover{
+    color: #1842b4;
+    border-color:#1842b4;
+  }
+
+  
 
   li.inscription {
     margin-left: -99px;
-    width: 74.7px;
+    width: 74px;
     margin-right: 145px;
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
-    margin-top: -46px;
+    margin-top: -63px;
     font-size: 20px;
     border: none;
     
   }
 
   .p1 > div:nth-child(5) {
-    background: wheat;
 
     width: 375px;
     height: 91px;
   }
 
   p.texte {
-    margin-left: 64px;
+    margin-left: 50px;
     text-align-last:justify;
-    margin-top: 0px;
-    width: 240px;
-    font-size: 20px;
+    margin-top: 10px;
+    width: 273px;
+    font-size: 23px;
   }
 
   .texte > small:nth-child(3) {
-  font-size: 14px;
+  font-size: 15px;
    }
    
  .recherche {
-      margin-top: 31px;
+      margin-top: 50px;
       margin-left: 1%;
       padding-bottom: 0px;
       margin-bottom: 30px;
@@ -198,12 +205,8 @@
   }
 
   button.rech{
-    color: white;
-    width: 0px;
-    height: 0px;
-  background: none;
-  border: none;
-  font-size: none;
+    display: none;
+    
   }
 /*icone loupe*/
 
@@ -218,11 +221,10 @@
   display: flex;
   height: 50px;
   }
+  
 
-  button.icone-loupe {
+  button.icone-loupe{
     background: #0065fc;
-    margin: 0;
-    color: white;
     font-size: 20px;
     border-radius: 0px 15px 15px 0px;
     height: 40px;
@@ -231,12 +233,17 @@
   /*MENU RAPIDE*/
   /* economique*/
 
+  #img,
+ul li:hover {
+  scale: 1.05;
+}
+
   #img > ul:nth-child(1) {
     margin-left: 15px;
     width: 375px;
     height: 220px;
     align-content: flex-start;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: 0px;
   }
 
@@ -338,12 +345,12 @@
     width: 375px;
     margin-bottom: 20px;
     margin-top: 1630px;
-    margin-left: 0px;
+    margin-left: 11px;
   }
 
   .bloc-activites {
     width: 375px;
-    margin-left: 0px;
+    margin-left: -10px;
     height: 1450px;
    }
    
@@ -351,7 +358,7 @@
   #section-aside {
     border-radius: 0px;
     width: 375px;
-    margin-top: -2300px;
+    margin-top: -2368px;
     margin-bottom: 20px;
     padding-bottom: 0px;
     padding-top: 0px;

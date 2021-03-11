@@ -29,6 +29,10 @@
   .menu {
     justify-items: center;
   }
+
+  .icone-loupe{
+    visibility: hidden;
+  }
   .filtres {
     font-size: 0px;
   }
@@ -153,7 +157,7 @@
 
   .info {
     margin-top: 98px;
-    height: 68.4px;
+    height: 68px;
     width: 408px;
     margin-bottom: -100px;
     margin-left: 148px;
