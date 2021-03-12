@@ -1,12 +1,11 @@
 @media screen and (max-width: 375px) {
-
   html {
-    width:auto;
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  body{
+  body {
     display: flex;
     flex-direction: column;
     width: 375px;
@@ -19,8 +18,7 @@
 
   body > main:nth-child(2) {
     width: 375px;
-   }
-   
+  }
 
   body > main:nth-child(2) > section:nth-child(1) {
     margin-top: 0px;
@@ -35,21 +33,26 @@
     margin-bottom: 0px;
   }
 
-  body > main:nth-child(2) > section:nth-child(1) > aside:nth-child(2) > section:nth-child(1) {
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > aside:nth-child(2)
+    > section:nth-child(1) {
     width: 375px;
     margin-top: -2050px;
-   }
+  }
 
-   body > main:nth-child(2) > section:nth-child(1) > aside:nth-child(2) > section:nth-child(1) {
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > aside:nth-child(2)
+    > section:nth-child(1) {
     margin-top: -2400px;
-   }
+  }
 
-   body > main:nth-child(2) > section:nth-child(1) > aside:nth-child(2) {
+  body > main:nth-child(2) > section:nth-child(1) > aside:nth-child(2) {
     width: 375px;
-   }
-   
-   
-   
+  }
 
   body
     > main:nth-child(2)
@@ -78,8 +81,7 @@
 
   .p1 > nav:nth-child(4) {
     margin-top: 40px;
-   }
-   
+  }
 
   .p1 > div:nth-child(5) {
     height: 91px;
@@ -87,10 +89,7 @@
     margin-top: 21px;
     padding-top: 0px;
     margin-bottom: -30px;
-   }
-   
-
-
+  }
 
   h1 {
     margin-top: 15px;
@@ -99,7 +98,7 @@
     height: 35px;
   }
 
-  .h2-aside{
+  .h2-aside {
     margin-left: 0px;
     width: 375px;
   }
@@ -107,8 +106,7 @@
   .h2-aside > strong:nth-child(1) {
     margin-right: 0px;
     margin-left: 20px;
-   }
-   
+  }
 
   .nav {
     margin-top: 10px;
@@ -122,9 +120,6 @@
     display: flex;
     margin: 0px;
   }
-  
-
-  
 
   .nav > a:nth-child(1) > li:nth-child(1) {
     text-align-last: center;
@@ -138,9 +133,9 @@
     padding-top: 0px;
   }
 
-  .nav > a:nth-child(1) > li:nth-child(1):hover{
+  .nav > a:nth-child(1) > li:nth-child(1):hover {
     color: #1842b4;
-    border-color:#1842b4;
+    border-color: #1842b4;
   }
 
   .nav > a:nth-child(2) > li:nth-child(1) {
@@ -155,12 +150,10 @@
     margin-top: 0px;
     padding-top: 0px;
   }
-  .nav > a:nth-child(2) > li:nth-child(1):hover{
+  .nav > a:nth-child(2) > li:nth-child(1):hover {
     color: #1842b4;
-    border-color:#1842b4;
+    border-color: #1842b4;
   }
-
-  
 
   li.inscription {
     margin-left: -99px;
@@ -173,57 +166,52 @@
     margin-top: -63px;
     font-size: 20px;
     border: none;
-    
   }
 
   .p1 > div:nth-child(5) {
-
     width: 375px;
     height: 91px;
   }
 
   p.texte {
     margin-left: 50px;
-    text-align-last:justify;
+    text-align-last: justify;
     margin-top: 10px;
     width: 273px;
     font-size: 23px;
   }
 
   .texte > small:nth-child(3) {
-  font-size: 15px;
-   }
-   
- .recherche {
-      margin-top: 50px;
-      margin-left: 1%;
-      padding-bottom: 0px;
-      margin-bottom: 30px;
-      margin-right: 0px;
+    font-size: 15px;
+  }
+
+  .recherche {
+    margin-top: 50px;
+    margin-left: 1%;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
     background: white;
     width: 375px;
   }
 
-  button.rech{
-    display: none;
-    
+  button.rech {
+    display:none;
   }
-/*icone loupe*/
+  /*icone loupe*/
 
-  .icone-loupe{
-    color: white;
+  .icone-loupe {
     width: 50px;
     align-items: center;
-  margin-top: 0px;
-  margin-left: -17px;
-  padding-left: 13px;
-  padding-bottom: 0px;
-  display: flex;
-  height: 50px;
+    margin-top: 0px;
+    margin-left: -17px;
+    padding-left: 13px;
+    padding-bottom: 0px;
+    display: flex;
+    height: 50px;
   }
-  
 
-  button.icone-loupe{
+  button.icone-loupe {
     background: #0065fc;
     font-size: 20px;
     border-radius: 0px 15px 15px 0px;
@@ -234,9 +222,9 @@
   /* economique*/
 
   #img,
-ul li:hover {
-  scale: 1.05;
-}
+  ul li:hover {
+    scale: 1.05;
+  }
 
   #img > ul:nth-child(1) {
     margin-left: 15px;
@@ -301,11 +289,11 @@ ul li:hover {
     margin-left: -3px;
     margin-right: 6px;
   }
-   #img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(2) {
+  #img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(2) {
     margin-left: -34px;
     margin-right: -1px;
   }
-   #img > ul:nth-child(1) > li:nth-child(4) > i:nth-child(1) {
+  #img > ul:nth-child(1) > li:nth-child(4) > i:nth-child(1) {
     margin-left: -3px;
     margin-right: -2px;
   }
@@ -316,7 +304,7 @@ ul li:hover {
     margin-left: 14px;
     margin-right: 5px;
   }
- #img > ul:nth-child(1) > li:nth-child(5) > i:nth-child(1) {
+  #img > ul:nth-child(1) > li:nth-child(5) > i:nth-child(1) {
     margin-right: -1px;
     margin-left: -1px;
   }
@@ -352,8 +340,7 @@ ul li:hover {
     width: 375px;
     margin-left: -10px;
     height: 1450px;
-   }
-   
+  }
 
   #section-aside {
     border-radius: 0px;
@@ -368,460 +355,415 @@ ul li:hover {
 
   .bloc-aside {
     width: 375px;
-margin-left: 0px;
-   }
-
-   
-/*hotel du matin*/
-
-.hotel-du-matin {
-  margin-left: 6px;
-  width: 360px;
-  height: 180px;
- }
- 
-
-/* chambre hotes coeur de leau*/
-
-.chambre-hotes-coeur-de-eau {
-  margin-left: 6px;
-  width: 360px;
-  height: 180px;
- }
- 
-/* hotel tout bleu blanc*/
-
-.hotel-tout-bleu-blanc {
-  margin-left: 6px;
-  width: 360px;
-  height: 180px;
- }
- 
-
- #bloc-article{
-   width: 375px;
-   height: 600px;
-   margin-left: 0px;
-   display: flex;
- }
-
-
-/* auberge cannebiere*/
-
-.auberge-cannebiere {
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
- }
- 
- .cannebiere {
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
- }
-
- .p-auberge-cannebiere {
-  margin-top: 8px;
-  margin-left: 30px;
- }
- 
- .p-nuit-cannebiere {
-  margin-left: 30px;
- }
- .auberge-cannebiere > div:nth-child(4) {
-  margin-left: 25px;
- }
-
- /* hotel du port*/
-
- .hotel-port{
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
- }
-
- .du-port{
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
- }
- .p-hotel-port{
-  margin-top: 8px;
-  margin-left: 30px;
- }
-
- .p-nuit-port{
-  margin-left: 30px;
- }
-
- .hotel-port > div:nth-child(4) {
-  margin-left: 30px;
- }
-
- /* hotel les mouette*/
-
-
- .hotel-mouettes{
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
- }
-
- .les-mouettes{
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
- }
-
- .p-les-mouettes{
-  margin-top: 8px;
-  margin-left: 30px;
- }
-
- .p-nuit-mouettes{
-  margin-left: 30px;
- }
-
- .hotel-mouettes  > div:nth-child(4){
-  margin-left: 30px;
- }
-
-/* hotel la mer*/
-
-.hotel-mer{
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
-}
-
-.la-mer{
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
-}
-
-.p-la-mer{
-  margin-top: 8px;
-  margin-left: 30px;
-}
-
-.p-nuit-mer{
-  margin-left: 30px;
-}
-
-.hotel-mer > div:nth-child(5){
-  margin-left: 30px;
-}
-
-/* auberge le panier*/
-
-
-.auberge-panier{
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
-}
-
-
-
-.h-panier{
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
-}
-
-
-.p-auberge-panier{
-  margin-top: 8px;
-  margin-left: 30px;
-}
-
-
-.p-nuit-panier{
-  margin-left: 30px;
-}
-
-.auberge-panier > div:nth-child(4){
-  margin-left: 30px;
-}
-
-/* hotel chez amina*/
-
-
-.hotel-amina{
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 0px;
-}
-
-.h-amina{
-  width: 340px;
-  margin-right: 5px;
-  height: 120px;
-}
-
-.p-amina{
-  margin-top: 8px;
-  margin-left: 30px;
-}
-
-.p-nuit-amina{
-  margin-left: 30px;
-}
-
-.hotel-amina > div:nth-child(4){
-  margin-left: 30px;
-}
-
-/*vieux port*/
-
-
-
-
-.div-vieux-port{
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  width: 350px;
-  height: 190px;
-  margin-left: 8px;
-  margin-bottom: 0px;
-  margin-top: 30px;
-}
-
-.vieux-port{
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
-}
-
-.p-vieux-port{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px;
-}
-
-/* fort de pomegues*/
-
-.div-fort-de-pomegues {
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  height: 190px;
-  margin-left: 8px;
-  width: 350px;
- }
- 
-
-.fort-de-pomegues {
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
- }
-
- .p-fort-de-pomegues{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px;
- }
-
-
-/* iles du frioul*/
-
-
- .div-iles-du-frioul {
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  margin-top: 30px;
-  width: 350px;
-  height: 190px;
-  margin-left: 8px;
- }
-
- .iles-du-frioul{
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
- }
-
- .p-iles-du-frioul{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px;
- }
-
-
-
-
- 
- /* parc national des calanques*/
-
- .div-parc-national-des-calanques {
-  margin-top: 0px;
-  margin-left: 8px;
-  margin-bottom: 0px;
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  width: 350px;
-  height: 190px;
- }
- 
-
-.parc-national-des-calanques{
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
-}
-
-
-.p-parc-national-des-calanques{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px
-}
-
-
-
-
-/* BLOC IMAGE*/
-
-.bloc-image-1 {
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  width: 375px;
-  height: 470px;
- }
- 
-
- .bloc-image-2 {
-  margin-left: 0px;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  width: 375px;
- }
- /* notre dame de la garde*/
-
-
- .div-notre-dame-de-la-garde {
-  margin-top: 0px;
-  margin-left: 8px;
-  margin-bottom: 0px;
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  width: 350px;
-  height: 190px;
- }
-
- .notre-dame-de-la-garde{
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
- }
-
-
- .p-notre-dame-de-la-garde{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px
- }
-
-/* parc longchamp*/
-
-
- .div-parc-longchamp{
-  margin-top: 30px;
-  margin-left: 8px;
-  margin-bottom: 0px;
-  box-shadow: 3px 3px 3px gray;
-  border-radius: 15px;
-  width: 350px;
-  height: 190px;
- }
-
- .parc-Longchamp{
-  box-shadow: none;
-  width: 345px;
-  margin-right: 0px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 140px;
- }
-
- .p-parc-longchamp{
-  margin-bottom: 0px;
-  margin-top: 4px;
-margin-left: 15px;
-font-size: 16px
- }
- 
-
-
- body > footer:nth-child(3) {
-   background: #f2f2f2;
-   display: flex;
-   flex-direction: column;
-  margin-top: 0px;
-  width: 375px;
-  margin-right: 0px;
-  margin-left: 0px;
- }
-
-
-/*FOOTER*/
-
-body > footer:nth-child(3) {
-  margin-top: 0px;
-  width: 375px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  margin-bottom: 0px;
- }
- 
-
-body > footer:nth-child(3) > div:nth-child(1) {
-  margin-left: 15px;
-}
-
-
-
-body > footer:nth-child(3) > div:nth-child(2) {
-  margin-left: 15px;
-}
-
-
-
-body > footer:nth-child(3) > div:nth-child(3) {
-  margin-left: 15px;
-}
-
- 
-
-
-
-
-
+    margin-left: 0px;
+  }
+
+  /*hotel du matin*/
+
+  .hotel-du-matin {
+    margin-left: 6px;
+    width: 360px;
+    height: 180px;
+  }
+
+  /* chambre hotes coeur de leau*/
+
+  .chambre-hotes-coeur-de-eau {
+    margin-left: 6px;
+    width: 360px;
+    height: 180px;
+  }
+
+  /* hotel tout bleu blanc*/
+
+  .hotel-tout-bleu-blanc {
+    margin-left: 6px;
+    width: 360px;
+    height: 180px;
+  }
+
+  #bloc-article {
+    width: 375px;
+    height: 600px;
+    margin-left: 0px;
+    display: flex;
+  }
+
+  /* auberge cannebiere*/
+
+  .auberge-cannebiere {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .cannebiere {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+
+  .p-auberge-cannebiere {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-cannebiere {
+    margin-left: 30px;
+  }
+  .auberge-cannebiere > div:nth-child(4) {
+    margin-left: 25px;
+  }
+
+  /* hotel du port*/
+
+  .hotel-port {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .du-port {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+  .p-hotel-port {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-port {
+    margin-left: 30px;
+  }
+
+  .hotel-port > div:nth-child(4) {
+    margin-left: 30px;
+  }
+
+  /* hotel les mouette*/
+
+  .hotel-mouettes {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .les-mouettes {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+
+  .p-les-mouettes {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-mouettes {
+    margin-left: 30px;
+  }
+
+  .hotel-mouettes > div:nth-child(4) {
+    margin-left: 30px;
+  }
+
+  /* hotel la mer*/
+
+  .hotel-mer {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .la-mer {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+
+  .p-la-mer {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-mer {
+    margin-left: 30px;
+  }
+
+  .hotel-mer > div:nth-child(5) {
+    margin-left: 30px;
+  }
+
+  /* auberge le panier*/
+
+  .auberge-panier {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .h-panier {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+
+  .p-auberge-panier {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-panier {
+    margin-left: 30px;
+  }
+
+  .auberge-panier > div:nth-child(4) {
+    margin-left: 30px;
+  }
+
+  /* hotel chez amina*/
+
+  .hotel-amina {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .h-amina {
+    width: 340px;
+    margin-right: 5px;
+    height: 120px;
+  }
+
+  .p-amina {
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .p-nuit-amina {
+    margin-left: 30px;
+  }
+
+  .hotel-amina > div:nth-child(4) {
+    margin-left: 30px;
+  }
+
+  /*vieux port*/
+
+  .div-vieux-port {
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    width: 350px;
+    height: 190px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+
+  .vieux-port {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-vieux-port {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* fort de pomegues*/
+
+  .div-fort-de-pomegues {
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 190px;
+    margin-left: 8px;
+    width: 350px;
+  }
+
+  .fort-de-pomegues {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-fort-de-pomegues {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* iles du frioul*/
+
+  .div-iles-du-frioul {
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 350px;
+    height: 190px;
+    margin-left: 8px;
+  }
+
+  .iles-du-frioul {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-iles-du-frioul {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* parc national des calanques*/
+
+  .div-parc-national-des-calanques {
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    width: 350px;
+    height: 190px;
+  }
+
+  .parc-national-des-calanques {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-parc-national-des-calanques {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* BLOC IMAGE*/
+
+  .bloc-image-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 375px;
+    height: 470px;
+  }
+
+  .bloc-image-2 {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 375px;
+  }
+  /* notre dame de la garde*/
+
+  .div-notre-dame-de-la-garde {
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    width: 350px;
+    height: 190px;
+  }
+
+  .notre-dame-de-la-garde {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-notre-dame-de-la-garde {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* parc longchamp*/
+
+  .div-parc-longchamp {
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 15px;
+    width: 350px;
+    height: 190px;
+  }
+
+  .parc-Longchamp {
+    box-shadow: none;
+    width: 345px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 140px;
+  }
+
+  .p-parc-longchamp {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  body > footer:nth-child(3) {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 375px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /*FOOTER*/
+
+  body > footer:nth-child(3) {
+    margin-top: 0px;
+    width: 375px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  body > footer:nth-child(3) > div:nth-child(1) {
+    margin-left: 15px;
+  }
+
+  body > footer:nth-child(3) > div:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  body > footer:nth-child(3) > div:nth-child(3) {
+    margin-left: 15px;
+  }
 }
