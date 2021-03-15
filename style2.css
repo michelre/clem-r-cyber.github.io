@@ -1,4 +1,3 @@
-
 body {
   display: block;
   min-width: 768px;
@@ -14,8 +13,7 @@ body > main:nth-child(2) > section:nth-child(1) {
 }
 body > main:nth-child(2) {
   width: 1280px;
- }
- 
+}
 
 body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
   margin-left: 0px;
@@ -339,7 +337,7 @@ ul li {
 }
 
 .info {
-  margin-left: 10px;
+  margin-left: 30px;
   width: 400px;
   display: flex;
   align-items: center;
@@ -395,7 +393,7 @@ article {
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
-  margin-left: 10px;
+  margin-left: 5px;
   width: 750px;
   height: 600px;
 }
@@ -627,7 +625,7 @@ article {
 #section-aside {
   width: 500px;
   margin: 20px;
-  margin-left: 65px;
+  margin-left: 90px;
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -843,8 +841,7 @@ body > main:nth-child(2) > section:nth-child(2) {
 
 .titre-activites > section:nth-child(1) {
   width: 1280px;
- }
- 
+}
 
 div#activites {
   height: 30px;
@@ -1008,8 +1005,7 @@ footer {
 
 body > footer:nth-child(3) {
   margin-left: -125px;
- }
- 
+}
 
 h4 {
   width: 130px;

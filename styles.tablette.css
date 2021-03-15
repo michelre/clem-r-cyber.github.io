@@ -123,7 +123,7 @@
     justify-content: flex-end;
 
     padding-left: 200px;
-    margin-top: -85px;
+    margin-top: -90px;
     margin-left: 37%;
   }
 
@@ -132,9 +132,6 @@
     display: flex;
     flex-direction: column;
   }
-
-
-   
 
   ul li {
     height: 50px;
@@ -150,7 +147,7 @@
 
   div.recherche {
     justify-content: center;
-    margin-left: 0%;
+    margin-left: -1%;
     margin-right: 550px;
   }
 
@@ -164,7 +161,7 @@
     height: 68px;
     width: 408px;
     margin-bottom: -100px;
-    margin-left: 148px;
+    margin-left: 184px;
   }
 
   .logo-info {
