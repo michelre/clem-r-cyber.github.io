@@ -21,14 +21,20 @@
   }
 
   .texte {
-    margin-left: 81px;
+    margin-left: -575px;
     width: 583px;
-    margin-top: -34px;
+    margin-top: 85px;
+    margin-right: 0px;
     text-align-last: center;
   }
   .menu {
     justify-items: center;
   }
+
+  #hebergement {
+    margin-top: 0px;
+   }
+   
 
   .icone-loupe {
     display: none;
@@ -50,17 +56,30 @@
     margin-bottom: -20px;
   }
 
+  .p1 > nav:nth-child(2) {
+    margin-left: 180px;
+   }
+   h2{
+     display: flex;
+   }
+   
+
   #img > ul:nth-child(1) {
     align-items: center;
     align-content: center;
     width: 590px;
-
     height: 197px;
     margin-bottom: 0px;
-    margin-top: -22px;
+    margin-top: 0px;
     padding-left: 0px;
-    margin-left: 84px;
+    margin-left: 86px;
   }
+
+  #img > ul:nth-child(1) > li:nth-child(2) {
+    margin-top: -48px;
+    margin-left: 0px;
+   }
+   
 
   #img > ul:nth-child(1) > li:nth-child(5) {
     margin-top: 6px;
@@ -83,14 +102,42 @@
     margin-right: 13px;
   }
 
+  body > main:nth-child(2) {
+    margin-top: 0px;
+   }
+
+   body > main:nth-child(2) > section:nth-child(2) {
+    margin-top: 0px;
+    padding-bottom: 0px;
+   }
+   
+   
+
   body > main:nth-child(2) > section:nth-child(1) {
     margin-left: 0px;
+    margin-top: 0px;
   }
 
   body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
     margin-left: 0px;
     margin-top: 121px;
   }
+
+  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 700px;
+   }
+   
+
+  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) > h2:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    height: 30px;
+    padding-bottom: 0px;
+   }
+   
 
   .info > p:nth-child(2) {
     margin-top: 30px;
@@ -110,10 +157,25 @@
     margin-left: -42px;
   }
 
+  #activites {
+    margin-top: 0px;
+    margin-bottom: -100px;
+   }
+   
+
   #bloc-activites {
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
   }
+
+  #bloc-article {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 21px;
+    margin-bottom: 0px;
+   }
+   
 
   .div-parc-national-des-calanques {
     width: 300px;
@@ -140,14 +202,15 @@
   }
 
   .recherche {
-    margin-top: -9px;
-    margin-left: 10%;
+    margin-top: -30px;
+    margin-left: -16%;
     margin-right: 550px;
+    padding-bottom: 0px;
   }
 
   div.recherche {
     justify-content: center;
-    margin-left: -1%;
+    margin-left: -16%;
     margin-right: 550px;
   }
 
@@ -157,10 +220,10 @@
   }
 
   .info {
-    margin-top: 98px;
+    margin-top: 63px;
     height: 68px;
     width: 408px;
-    margin-bottom: -100px;
+    margin-bottom: 0px;
     margin-left: 184px;
   }
 
@@ -183,6 +246,16 @@
   .titre-activites {
     margin-left: 10px;
   }
+
+  .hotel-mer {
+    margin-left: 0px;
+   }
+
+   .auberge-cannebiere {
+    margin-left: 0px;
+   }
+   
+   
 
   .div-fort-de-pomegues {
     margin-left: 365px;

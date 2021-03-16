@@ -2,7 +2,6 @@ body {
   display: block;
   min-width: 768px;
   max-width: 1280px;
-  max-height: auto;
   margin: 0%;
   padding: 0%;
 }
@@ -11,6 +10,13 @@ body > main:nth-child(2) > section:nth-child(1) {
   margin-left: 29px;
   width: 1280px;
 }
+
+body > main:nth-child(2) > section:nth-child(2) {
+  width: 1480px;
+  margin-left: 0%;
+ }
+ 
+
 body > main:nth-child(2) {
   width: 1280px;
 }
@@ -20,14 +26,35 @@ body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
   margin-right: 30px;
 }
 
+body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 0px;
+ }
+ 
+
+
+body > main:nth-child(2) > section:nth-child(2) > h2:nth-child(1) {
+  display: flex;
+  height: 60px;
+  width: 408px;
+margin-top: 25px;
+margin-left: 29px;
+margin-bottom: 0px;
+margin-right: -350px;
+ }
+ 
+
+body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) > h2:nth-child(1) {
+  margin-left: 30px;
+ }
+ 
+
 #comtainer {
   display: flex;
   flex-direction: column;
 }
 
 html {
-  max-width: auto;
-  max-height: auto;
   min-width: 1480px;
 }
 
@@ -46,7 +73,7 @@ header {
 
 .p1 {
   display: flex;
-  width: 1280px;
+  width: 1480px;
   height: 200px;
   flex-wrap: wrap;
 }
@@ -66,6 +93,14 @@ header {
   margin-right: 0px;
   margin-bottom: 0px;
 }
+
+.p1 > nav:nth-child(2) {
+  margin-left: 890px;
+  width: 330px;
+  text-decoration: none;
+ }
+ 
+
 .p1 > nav:nth-child(4) {
   margin-right: 500px;
   margin-top: 20px;
@@ -77,51 +112,94 @@ h1 {
   margin-top: 0px;
   display: flex;
 }
+.logo {
+  height: 75px;
+  margin-left: 30px;
+  margin-top: 15px;
+ } 
 
-.nav {
-  margin-top: -118px;
-  margin-left: 268%;
-  margin-bottom: 19%;
+#nav {
+  margin-top: 0px;
+  margin-left: 165%;
+  margin-bottom: 0%;
   font-size: 20px;
   display: flex;
   list-style-type: none;
 }
 /*float: inline-start;*/
 
-nav ol {
-  text-decoration: none;
-  float: inline-start;
-  margin: 0%;
-  margin-bottom: 0%;
-  color: #0065fc;
+.p1 > nav:nth-child(2) > div:nth-child(1) {
+
+  float: inline-end;
   display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-}
+  height: 50px;
+  width: 270px;
+ }
+ 
 
-ol a {
+ .p1 > div:nth-child(3) {
+  height: 150px;
+  margin-top: 30px;
+  margin-left: -43px;
+ }
+ 
+ 
+.nav-hebergement{
+  
+  font-size: 20px;
   color: #0065fc;
+  margin-left: 0px;
+  line-height: 60px;
+  margin-top: 0px;
+  
+}
+.p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
   text-decoration: none;
+ }
+ 
+.nav-hebergement:hover{
+  border-top: 3px solid #0065fc;
 }
 
-ol li:hover {
-  text-decoration: none;
-  color: #0042a5;
-}
+.nav-activite {
+  font-size: 20px;
+  color: #0065fc;
+  margin-left: 30px;
+  line-height: 60px;
+  margin-top: 0px;
+ }
 
-.nav li {
+ .p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(2) {
+  text-decoration:none ;
+ }
+ 
+
+ .nav-activite:hover{
+  border-top: 3px solid #0065fc; 
+ }
+
+ .inscription {
+   font-size: 20px;
+  color: #0065fc;
+  margin-left: 30px;
+  line-height: 60px;
+  margin-top: 0px;
+ }
+
+ .p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(3) {
   text-decoration: none;
-  height: 20px;
-  margin: 0 10px 10px 20px;
-  padding-top: 20px;
-  border-top: 3px solid;
-  align-content: center;
-}
+ }
+ 
+
+ .inscription:hover{
+  border-top: 3px solid #0065fc; 
+ }
+ 
 
 .texte {
-  margin-left: 62px;
-  margin-top: -66px;
-  margin-bottom: 33px;
+  margin-left: 76px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 25px;
   height: 50px;
 }
@@ -129,8 +207,8 @@ ol li:hover {
 .recherche {
   align-items: center;
   margin-top: -7px;
-  margin-left: 35px;
-  padding-bottom: 30px;
+  margin-left: 1px;
+  padding-bottom: 15px;
   display: flex;
   height: 50px;
 }
@@ -166,7 +244,7 @@ input {
 }
 
 button {
-  border-radius: 15 0 0 15px;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   margin-left: 25px;
@@ -175,10 +253,15 @@ button {
 }
 
 .filtres {
-  margin-top: 8px;
+  
+  margin-top: 20px;
   position: inherit;
   font-size: 20px;
 }
+#img > ul:nth-child(1) > li:nth-child(1) {
+  border: none;
+ }
+ 
 
 .cercle {
   position: static;
@@ -207,7 +290,7 @@ ul li {
 
 #img,
 ul li:hover {
-  scale: 1.05;
+  transform: scale(1.1);
 }
 div #img {
   border: none;
@@ -219,6 +302,7 @@ div #img {
 }
 #img > ul:nth-child(1) {
   margin-right: -20px;
+  padding-left: 17px;
 }
 
 #img > ul:nth-child(1) > li:nth-child(2) {
@@ -322,12 +406,6 @@ ul li img {
   border-radius: inherit;
 }
 
-nav ul {
-  color: #deebff;
-  font-size: 1.5em;
-
-  background: rgb(118, 59, 228);
-}
 
 ul li {
   font-family: "Raleway 400", sans-serif;
@@ -338,6 +416,7 @@ ul li {
 
 .info {
   margin-left: 30px;
+  height: 75px;
   width: 400px;
   display: flex;
   align-items: center;
@@ -383,26 +462,46 @@ article {
 }
 
 .h2-article {
-  margin-left: 15px;
-  padding-top: 15px;
+  height: 564px;
+  width: 879px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 13px;
+  margin-right: 10px;
+  margin-top: 60px;
+  padding-top: 0px;
   color: black;
 }
+.h2-article > strong:nth-child(1) {
+  height: 30px;
+  margin-top: -20px;
+ }
+ 
 
 #bloc-article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
-  margin-left: 5px;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-left: 0px;
   width: 750px;
   height: 600px;
+}
+.bloc-hotel-article{
+  
+  display: flex;
+  width: 769px;
+  height: 800px;
+  flex-wrap: wrap;
+  margin-left: -4px;
 }
 
 /* AUBERGE LA CANNEBIERE*/
 
 .auberge-cannebiere {
-  margin: auto;
-  margin-top: 35px;
+  margin: 35px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -411,13 +510,17 @@ article {
 }
 
 .auberge-cannebiere:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
+ 
 
 .cannebiere {
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
+}
+.cannebiere:hover{
+  transform: scale(1.1);
 }
 
 .p-auberge-cannebiere {
@@ -438,8 +541,7 @@ article {
 /* HOTEL DU PORT*/
 
 .hotel-port {
-  margin: auto;
-  margin-top: 35px;
+  margin: 35px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -447,7 +549,7 @@ article {
   background: white;
 }
 .hotel-port:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .du-port {
@@ -474,8 +576,7 @@ article {
 /* HOTEL LES MOUETTES*/
 
 .hotel-mouettes {
-  margin: auto;
-  margin-top: 35px;
+  margin: 35px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -484,7 +585,7 @@ article {
 }
 
 .hotel-mouettes:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .les-mouettes {
@@ -511,8 +612,7 @@ article {
 /* HOTEL DE LA MER*/
 
 .hotel-mer {
-  margin: auto;
-  margin-top: 35px;
+  margin: 0px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -520,7 +620,7 @@ article {
   background: white;
 }
 .hotel-mer:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .la-mer {
@@ -547,8 +647,7 @@ article {
 /* AUBERGE LE PANIER*/
 
 .auberge-panier {
-  margin: auto;
-  margin-top: 35px;
+  margin: 0px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -556,7 +655,7 @@ article {
   background: white;
 }
 .auberge-panier:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .h-panier {
@@ -583,8 +682,7 @@ article {
 /* HOTEL CHEZ AMINA*/
 
 .hotel-amina {
-  margin: auto;
-  margin-top: 35px;
+  margin: 0px 0px 0px 30px;
   width: 220px;
   height: 210px;
   border-radius: 20px;
@@ -592,7 +690,7 @@ article {
   background: white;
 }
 .hotel-amina:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .h-amina {
@@ -629,24 +727,37 @@ article {
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-
   height: 670px;
   background: #f2f2f2;
 }
+
+#section-aside > h2:nth-child(1) {
+  margin-left: 49px;
+ }
+ 
 
 .h2-aside {
   margin-left: 15px;
   padding-top: 15px;
   color: black;
 }
+.h2-article > strong:nth-child(1){
+  font-size: 25px;
+}
 
 .bloc-aside {
-  margin-left: -40px;
+  margin-left: -30px;
+  margin-top: -19px;
   width: 570px;
   height: 600px;
   display: flex;
   flex-wrap: wrap;
 }
+
+body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
+  width: 600px;
+ }
+ 
 
 /* HOTEL LE SOLEIL DU MATIN */
 
@@ -662,7 +773,7 @@ article {
   background-color: white;
 }
 .hotel-du-matin:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .hotel-matin {
@@ -712,7 +823,7 @@ article {
   background-color: white;
 }
 .chambre-hotes-coeur-de-eau:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .hotel-coeur-de-eau {
@@ -761,7 +872,7 @@ article {
 }
 
 .hotel-tout-bleu-blanc:hover {
-  scale: 1.02;
+  transform: scale(1.1);
 }
 
 .hotel-bleu-blanc {
@@ -845,10 +956,13 @@ body > main:nth-child(2) > section:nth-child(2) {
 
 div#activites {
   height: 30px;
+  margin-top: 100px;
+margin-left: 0px;
 }
 
 .bloc-activites {
   width: 1400px;
+  margin-top: 100px;
   height: auto;
   display: flex;
 }
@@ -867,7 +981,7 @@ div#activites {
 }
 
 .div-vieux-port:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .vieux-port {
@@ -894,7 +1008,7 @@ div#activites {
   height: 290px;
 }
 .div-fort-de-pomegues:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .fort-de-pomegues {
@@ -915,7 +1029,7 @@ div#activites {
 }
 
 .div-iles-du-frioul:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .iles-du-frioul {
@@ -936,7 +1050,7 @@ div#activites {
 }
 
 .div-parc-national-des-calanques:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .parc-national-des-calanques {
@@ -963,7 +1077,7 @@ div#activites {
 }
 
 .div-notre-dame-de-la-garde:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .notre-dame-de-la-garde {
@@ -983,7 +1097,7 @@ div#activites {
 }
 
 .div-parc-longchamp:hover {
-  scale: 1.01;
+  transform: scale(1.1);
 }
 
 .parc-Longchamp {
@@ -1010,4 +1124,7 @@ body > footer:nth-child(3) {
 h4 {
   width: 130px;
   flex-wrap: nowrap;
+}
+.titre-vide {
+  display: none;
 }

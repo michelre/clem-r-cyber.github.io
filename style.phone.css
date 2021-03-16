@@ -223,7 +223,7 @@
 
   #img,
   ul li:hover {
-    scale: 1.05;
+    transform: scale(1.02);
   }
 
   #img > ul:nth-child(1) {
