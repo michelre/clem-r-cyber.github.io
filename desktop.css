@@ -5,8 +5,8 @@ body {
   margin: 0%;
   padding: 0%;
 }
-*{
-  font-family: "Raleway 400", sans-serif;
+* {
+  font-family: 'Raleway 400', sans-serif;
 }
 
 body > main:nth-child(2) > section:nth-child(1) {
@@ -17,40 +17,48 @@ body > main:nth-child(2) > section:nth-child(1) {
 body > main:nth-child(2) > section:nth-child(2) {
   width: 1480px;
   margin-left: 0%;
- }
- 
+}
 
 body > main:nth-child(2) {
   width: 1280px;
 }
 
-body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
+body
+  > main:nth-child(2)
+  > section:nth-child(1)
+  > article:nth-child(1) {
   margin-left: 0px;
   margin-right: 30px;
 }
 
-body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) {
+body
+  > main:nth-child(2)
+  > section:nth-child(1)
+  > article:nth-child(2) {
   margin-right: 20px;
   margin-left: 0px;
- }
- 
+}
 
-
-body > main:nth-child(2) > section:nth-child(2) > h2:nth-child(1) {
+body
+  > main:nth-child(2)
+  > section:nth-child(2)
+  > h2:nth-child(1) {
   display: flex;
   height: 60px;
   width: 408px;
-margin-top: 25px;
-margin-left: 29px;
-margin-bottom: 0px;
-margin-right: -350px;
- }
- 
+  margin-top: 25px;
+  margin-left: 29px;
+  margin-bottom: 0px;
+  margin-right: -350px;
+}
 
-body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) > h2:nth-child(1) {
+body
+  > main:nth-child(2)
+  > section:nth-child(1)
+  > article:nth-child(2)
+  > h2:nth-child(1) {
   margin-left: 30px;
- }
- 
+}
 
 #comtainer {
   display: flex;
@@ -101,8 +109,7 @@ header {
   margin-left: 866px;
   width: 330px;
   text-decoration: none;
- }
- 
+}
 
 .p1 > nav:nth-child(4) {
   margin-right: 500px;
@@ -119,7 +126,7 @@ h1 {
   height: 75px;
   margin-left: 30px;
   margin-top: 15px;
- } 
+}
 
 #nav {
   margin-top: 0px;
@@ -132,35 +139,30 @@ h1 {
 /*float: inline-start;*/
 
 .p1 > nav:nth-child(2) > div:nth-child(1) {
-
   float: inline-end;
   display: flex;
   height: 50px;
   width: 270px;
- }
- 
+}
 
- .p1 > div:nth-child(3) {
+.p1 > div:nth-child(3) {
   height: 150px;
   margin-top: 30px;
   margin-left: -43px;
- }
- 
- 
-.nav-hebergement{
-  
+}
+
+.nav-hebergement {
   font-size: 20px;
   color: #0065fc;
   margin-left: 0px;
   line-height: 60px;
   margin-top: 0px;
-  
 }
 .p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
   text-decoration: none;
- }
- 
-.nav-hebergement:hover{
+}
+
+.nav-hebergement:hover {
   border-top: 3px solid #0065fc;
 }
 
@@ -170,34 +172,31 @@ h1 {
   margin-left: 30px;
   line-height: 60px;
   margin-top: 0px;
- }
+}
 
- .p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(2) {
-  text-decoration:none ;
- }
- 
+.p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(2) {
+  text-decoration: none;
+}
 
- .nav-activite:hover{
-  border-top: 3px solid #0065fc; 
- }
+.nav-activite:hover {
+  border-top: 3px solid #0065fc;
+}
 
- .inscription {
-   font-size: 20px;
+.inscription {
+  font-size: 20px;
   color: #0065fc;
   margin-left: 30px;
   line-height: 60px;
   margin-top: 0px;
- }
+}
 
- .p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(3) {
+.p1 > nav:nth-child(2) > div:nth-child(1) > a:nth-child(3) {
   text-decoration: none;
- }
- 
+}
 
- .inscription:hover{
-  border-top: 3px solid #0065fc; 
- }
- 
+.inscription:hover {
+  border-top: 3px solid #0065fc;
+}
 
 .texte {
   margin-left: 76px;
@@ -256,15 +255,13 @@ button {
 }
 
 .filtres {
-  
   margin-top: 20px;
   position: inherit;
   font-size: 20px;
 }
 #img > ul:nth-child(1) > li:nth-child(1) {
   border: none;
- }
- 
+}
 
 .cercle {
   position: static;
@@ -325,7 +322,10 @@ div #img {
   width: 180px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(2) > img:nth-child(1) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(2)
+  > img:nth-child(1) {
   padding-left: 0px;
   margin-right: 17px;
   padding-right: 0px;
@@ -335,10 +335,12 @@ div #img {
 #img > ul:nth-child(1) > li:nth-child(1) {
   margin-right: 10px;
   margin-left: 22px;
- }
- 
+}
 
-#img > ul:nth-child(1) > li:nth-child(2) > img:nth-child(2) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(2)
+  > img:nth-child(2) {
   margin-left: -34px;
 }
 #img > ul:nth-child(1) > li:nth-child(2) > p:nth-child(3) {
@@ -346,12 +348,18 @@ div #img {
   margin-right: 27px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(3) > img:nth-child(1) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > img:nth-child(1) {
   margin-left: -64px;
   margin-right: 26px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(3) > img:nth-child(2) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > img:nth-child(2) {
   margin-left: -33px;
 }
 
@@ -360,12 +368,18 @@ div #img {
   margin-right: 49px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(1) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(4)
+  > img:nth-child(1) {
   margin-left: -43px;
   margin-right: 20px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(4) > img:nth-child(2) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(4)
+  > img:nth-child(2) {
   margin-left: -34px;
 }
 
@@ -383,12 +397,18 @@ div #img {
   width: 200px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(1) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(5)
+  > img:nth-child(1) {
   margin-left: -12px;
   margin-right: 9px;
 }
 
-#img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(2) {
+#img
+  > ul:nth-child(1)
+  > li:nth-child(5)
+  > img:nth-child(2) {
   margin-left: -34px;
 }
 #img > ul:nth-child(1) > li:nth-child(5) > p:nth-child(3) {
@@ -416,9 +436,8 @@ ul li img {
   border-radius: inherit;
 }
 
-
 ul li {
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
   display: flex;
   align-items: center;
   align-content: center;
@@ -485,14 +504,13 @@ article {
 .h2-article > strong:nth-child(1) {
   height: 30px;
   margin-top: -20px;
- }
+}
 
- #section-aside > h2:nth-child(1) > img:nth-child(1) {
+#section-aside > h2:nth-child(1) > img:nth-child(1) {
   margin-left: 201px;
   height: 20px;
   width: 20px;
- }
- 
+}
 
 #bloc-article {
   display: flex;
@@ -505,8 +523,7 @@ article {
   width: 750px;
   height: 600px;
 }
-.bloc-hotel-article{
-  
+.bloc-hotel-article {
   display: flex;
   width: 769px;
   height: 800px;
@@ -528,7 +545,6 @@ article {
 .auberge-cannebiere:hover {
   transform: scale(1.1);
 }
- 
 
 .cannebiere {
   object-fit: cover;
@@ -537,19 +553,18 @@ article {
   border-radius: 15px;
 }
 
-
 .p-auberge-cannebiere {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-cannebiere {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 
@@ -578,14 +593,14 @@ article {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-port {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 
@@ -615,14 +630,14 @@ article {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-mouettes {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 
@@ -651,14 +666,14 @@ article {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-mer {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 
@@ -687,14 +702,14 @@ article {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-panier {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 
@@ -722,14 +737,14 @@ article {
   margin-left: 5px;
   font-size: 15px;
   text-align: left;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
 }
 
 .p-nuit-amina {
   margin-left: 5px;
   font-size: 12px;
   text-align: left;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   line-height: 1px;
 }
 /* AFFICHER PLUS*/
@@ -753,15 +768,14 @@ article {
 
 #section-aside > h2:nth-child(1) {
   margin-left: 49px;
- }
- 
+}
 
 .h2-aside {
   margin-left: 15px;
   padding-top: 15px;
   color: black;
 }
-.h2-article > strong:nth-child(1){
+.h2-article > strong:nth-child(1) {
   font-size: 25px;
 }
 
@@ -774,10 +788,12 @@ article {
   flex-wrap: wrap;
 }
 
-body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
+body
+  > main:nth-child(2)
+  > aside:nth-child(2)
+  > section:nth-child(1) {
   width: 600px;
- }
- 
+}
 
 /* HOTEL LE SOLEIL DU MATIN */
 
@@ -815,7 +831,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
-  font-family: "Raleway 200", sans-serif;
+  font-family: 'Raleway 200', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -825,7 +841,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -865,7 +881,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
-  font-family: "Raleway 200", sans-serif;
+  font-family: 'Raleway 200', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -874,7 +890,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -915,7 +931,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   font-size: 17px;
   margin-left: 20px;
   height: 30px;
-  font-family: "Raleway 400", sans-serif;
+  font-family: 'Raleway 400', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -925,7 +941,7 @@ body > main:nth-child(2) > aside:nth-child(2) > section:nth-child(1) {
   margin-bottom: 20px;
   margin-left: 20px;
   font-size: 13px;
-  font-family: "Raleway+Dots", sans-serif;
+  font-family: 'Raleway+Dots', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -980,7 +996,7 @@ body > main:nth-child(2) > section:nth-child(2) {
 div#activites {
   height: 30px;
   margin-top: 100px;
-margin-left: -30px;
+  margin-left: -30px;
 }
 
 .bloc-activites {

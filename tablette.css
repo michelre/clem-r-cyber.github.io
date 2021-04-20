@@ -32,8 +32,7 @@
 
   #hebergement {
     margin-top: 0px;
-   }
-   
+  }
 
   .icone-loupe {
     display: none;
@@ -57,19 +56,15 @@
 
   .p1 > nav:nth-child(2) {
     margin-left: 141px;
+  }
 
-   }
+  .p1 > div:nth-child(3) {
+    margin-left: -43px;
+  }
 
-   .p1 > div:nth-child(3) {
- margin-left: -43px;
-}
-
-
-
-   h2{
-     display: flex;
-   }
-   
+  h2 {
+    display: flex;
+  }
 
   #img > ul:nth-child(1) {
     align-items: center;
@@ -85,8 +80,7 @@
   #img > ul:nth-child(1) > li:nth-child(2) {
     margin-top: -48px;
     margin-left: 0px;
-   }
-   
+  }
 
   #img > ul:nth-child(1) > li:nth-child(5) {
     margin-top: 6px;
@@ -99,52 +93,64 @@
     margin-top: 11px;
   }
 
-  #img > ul:nth-child(1) > li:nth-child(5) > img:nth-child(1) {
+  #img
+    > ul:nth-child(1)
+    > li:nth-child(5)
+    > img:nth-child(1) {
     margin-right: 9px;
     margin-left: -1px;
   }
 
-  #img > ul:nth-child(1) > li:nth-child(5) > p:nth-child(3) {
+  #img
+    > ul:nth-child(1)
+    > li:nth-child(5)
+    > p:nth-child(3) {
     margin-left: 19px;
     margin-right: 13px;
   }
 
   body > main:nth-child(2) {
     margin-top: 0px;
-   }
+  }
 
-   body > main:nth-child(2) > section:nth-child(2) {
+  body > main:nth-child(2) > section:nth-child(2) {
     margin-top: 0px;
     padding-bottom: 0px;
-   }
-   
-   
+  }
 
   body > main:nth-child(2) > section:nth-child(1) {
     margin-left: 0px;
     margin-top: 0px;
   }
 
-  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(1) {
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > article:nth-child(1) {
     margin-left: 0px;
     margin-top: 121px;
   }
 
-  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) {
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > article:nth-child(2) {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 700px;
-   }
-   
+  }
 
-  body > main:nth-child(2) > section:nth-child(1) > article:nth-child(2) > h2:nth-child(1) {
+  body
+    > main:nth-child(2)
+    > section:nth-child(1)
+    > article:nth-child(2)
+    > h2:nth-child(1) {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 50px;
     height: 30px;
     padding-bottom: 0px;
-   }
-   
+  }
 
   .info > p:nth-child(2) {
     margin-top: 30px;
@@ -167,8 +173,7 @@
   #activites {
     margin-top: 0px;
     margin-bottom: -100px;
-   }
-   
+  }
 
   #bloc-activites {
     margin-top: 0px;
@@ -181,8 +186,7 @@
     margin-right: 0px;
     margin-left: 21px;
     margin-bottom: 0px;
-   }
-   
+  }
 
   .div-parc-national-des-calanques {
     width: 300px;
@@ -257,13 +261,11 @@
 
   .hotel-mer {
     margin-left: 0px;
-   }
+  }
 
-   .auberge-cannebiere {
+  .auberge-cannebiere {
     margin-left: 0px;
-   }
-   
-   
+  }
 
   .div-fort-de-pomegues {
     margin-left: 365px;
@@ -291,7 +293,7 @@
     padding-top: 30px;
     margin-left: 3px;
   }
-  footer{
+  footer {
     width: 770px;
   }
 }
