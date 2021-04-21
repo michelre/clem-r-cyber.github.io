@@ -1,11 +1,12 @@
 body {
+   overflow-x: hidden;
   display: block;
   min-width: 768px;
   max-width: 1280px;
   margin: 0%;
   padding: 0%;
 }
-* {
+*{
   font-family: 'Raleway 400', sans-serif;
 }
 
@@ -71,7 +72,7 @@ html {
 
 header {
   width: auto;
-  max-width: 100%;
+  min-width: 1280px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -106,7 +107,7 @@ header {
 }
 
 .p1 > nav:nth-child(2) {
-  margin-left: 866px;
+  margin-left: 890px;
   width: 330px;
   text-decoration: none;
 }
@@ -361,6 +362,7 @@ div #img {
   > li:nth-child(3)
   > img:nth-child(2) {
   margin-left: -33px;
+  height: 16px;
 }
 
 #img > ul:nth-child(1) > li:nth-child(3) > p:nth-child(3) {
@@ -381,6 +383,7 @@ div #img {
   > li:nth-child(4)
   > img:nth-child(2) {
   margin-left: -34px;
+  height: 16px;
 }
 
 #img > ul:nth-child(1) > li:nth-child(4) > p:nth-child(3) {
@@ -547,7 +550,6 @@ article {
 }
 
 .cannebiere {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -583,7 +585,6 @@ article {
 }
 
 .du-port {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -620,7 +621,6 @@ article {
 }
 
 .les-mouettes {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -656,7 +656,6 @@ article {
 }
 
 .la-mer {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -692,7 +691,6 @@ article {
 }
 
 .h-panier {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -728,7 +726,6 @@ article {
 }
 
 .h-amina {
-  object-fit: cover;
   margin-left: 5px;
   margin-top: 5px;
   border-radius: 15px;
@@ -813,7 +810,6 @@ body
 }
 
 .hotel-matin {
-  object-fit: cover;
   margin: auto;
   margin-left: 6px;
   margin-top: 6px;
@@ -864,7 +860,6 @@ body
 }
 
 .hotel-coeur-de-eau {
-  object-fit: cover;
   margin: auto;
   margin-left: 6px;
   margin-top: 6px;
@@ -914,7 +909,6 @@ body
 }
 
 .hotel-bleu-blanc {
-  object-fit: cover;
   margin: auto;
   margin-left: 6px;
   margin-top: 6px;
@@ -996,7 +990,7 @@ body > main:nth-child(2) > section:nth-child(2) {
 div#activites {
   height: 30px;
   margin-top: 100px;
-  margin-left: -30px;
+  margin-left: 0px;
 }
 
 .bloc-activites {
@@ -1024,7 +1018,6 @@ div#activites {
 }
 
 .vieux-port {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
@@ -1052,7 +1045,6 @@ div#activites {
 }
 
 .fort-de-pomegues {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
   margin: auto;
@@ -1074,7 +1066,6 @@ div#activites {
 }
 
 .iles-du-frioul {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
@@ -1096,7 +1087,6 @@ div#activites {
 }
 
 .parc-national-des-calanques {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
@@ -1124,7 +1114,6 @@ div#activites {
 }
 
 .notre-dame-de-la-garde {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
@@ -1145,7 +1134,6 @@ div#activites {
 }
 
 .parc-Longchamp {
-  object-fit: cover;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
@@ -1157,7 +1145,7 @@ div#activites {
 
 footer {
   background: #f2f2f2;
-  width: 1590px;
+  width: 1480px;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -1165,7 +1153,9 @@ footer {
 
 body > footer:nth-child(3) {
   margin-left: -125px;
+ width: 1631px;
 }
+
 
 h4 {
   width: 130px;
