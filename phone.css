@@ -1,5 +1,4 @@
 @media screen and (max-width: 375px) {
-
   html {
     overflow-x: hidden;
     width: 378px;
@@ -223,7 +222,7 @@
 
   .inscription {
     margin-top: -67px;
-    margin-left: -97px;
+    margin-left: -107px;
   }
 
   .inscription:hover {
@@ -232,10 +231,10 @@
   }
 
   p.texte {
-    margin-left: 50px;
+    margin-left: 33px;
     text-align-last: justify;
     margin-top: 10px;
-    width: 273px;
+    width: 302px;
     font-size: 23px;
   }
 
@@ -443,7 +442,7 @@
   }
 
   #section-aside > h2:nth-child(1) > img:nth-child(1) {
-    margin-left: 132px;
+    margin-left: 90px;
   }
 
   #bloc-article {
@@ -738,7 +737,7 @@
   /*vieux port*/
 
   .div-vieux-port {
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     width: 350px;
     height: 190px;
@@ -766,7 +765,7 @@
   /* fort de pomegues*/
 
   .div-fort-de-pomegues {
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 0px;
@@ -794,7 +793,7 @@
   /* iles du frioul*/
 
   .div-iles-du-frioul {
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     margin-top: 30px;
     width: 350px;
@@ -824,7 +823,7 @@
     margin-top: 0px;
     margin-left: 8px;
     margin-bottom: 0px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     width: 350px;
     height: 190px;
@@ -870,7 +869,7 @@
     margin-top: 0px;
     margin-left: 8px;
     margin-bottom: 0px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     width: 350px;
     height: 190px;
@@ -898,7 +897,7 @@
     margin-top: 30px;
     margin-left: 8px;
     margin-bottom: 0px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     width: 350px;
     height: 190px;
