@@ -1,8 +1,48 @@
+.container {
+  max-width: 1440px;
+  margin: auto; /*Permet de centrer les éléments*/
+}
+
+.hebergements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hebergements article {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.hebergements aside {
+  width: 100%;
+}
+
+#bloc-article > div {
+  width: calc(33% - 16px);
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+#bloc-article img{
+  width: 100%;
+}
+
+@media screen and (min-width: 1140px){
+  .hebergements {
+    flex-wrap: nowrap;
+  }
+
+  .hebergements article {
+    width: 66%;
+  }
+
+}
+
 body {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   display: block;
-  min-width: 768px;
-  max-width: 1280px;
+  /*min-width: 768px;*/
+  /*max-width: 1280px;*/
   margin: 0%;
   padding: 0%;
 }
@@ -13,16 +53,13 @@ body {
 
 body > main:nth-child(2) > section:nth-child(1) {
   margin-left: 29px;
-  width: 1280px;
 }
 
 body > main:nth-child(2) > section:nth-child(2) {
-  width: 1480px;
   margin-left: 0%;
 }
 
 body > main:nth-child(2) {
-  width: 1280px;
 }
 
 body
@@ -47,7 +84,6 @@ body
   > h2:nth-child(1) {
   display: flex;
   height: 60px;
-  width: 408px;
   margin-top: 25px;
   margin-left: 29px;
   margin-bottom: 0px;
@@ -68,12 +104,11 @@ body
 }
 
 html {
-  min-width: 1480px;
+
 }
 
 header {
   width: auto;
-  min-width: 1280px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -86,7 +121,6 @@ header {
 
 .p1 {
   display: flex;
-  width: 1480px;
   height: 200px;
   flex-wrap: wrap;
 }
@@ -108,8 +142,8 @@ header {
 }
 
 .p1 > nav:nth-child(2) {
-  margin-left: 890px;
-  width: 330px;
+  /*margin-left: 890px;*/
+  /*width: 330px;*/
   text-decoration: none;
 }
 
@@ -144,7 +178,7 @@ h1 {
   float: inline-end;
   display: flex;
   height: 50px;
-  width: 270px;
+  /*width: 270px;*/
 }
 
 .p1 > div:nth-child(3) {
@@ -309,7 +343,7 @@ div #img {
   border: none;
 }
 #img {
-  width: 920px;
+  /*width: 920px;*/
   height: 50px;
   align-items: center;
 }
@@ -320,19 +354,19 @@ div #img {
 }
 
 #img > ul:nth-child(1) > li:nth-child(2) {
-  width: 180px;
+  /*width: 180px;*/
 }
 
 #img > ul:nth-child(1) > li:nth-child(4) {
-  width: 180px;
+  /*width: 180px;*/
 }
 
 #img > ul:nth-child(1) > li:nth-child(3) {
-  width: 180px;
+  /*width: 180px;*/
 }
 
 #img > ul:nth-child(1) > li:nth-child(5) {
-  width: 180px;
+  /*width: 180px;*/
 }
 
 #img
@@ -463,10 +497,9 @@ ul li {
 .info {
   margin-left: 30px;
   height: 75px;
-  width: 400px;
+  /*width: 400px;*/
   display: flex;
   align-items: center;
-  justify-content: center;
   justify-content: center;
 }
 
@@ -485,7 +518,7 @@ p.logo-info {
 /* main */
 
 main {
-  width: 1585px;
+  /*width: 1585px;*/
   height: auto;
 }
 
@@ -503,13 +536,13 @@ article {
   margin: 20px;
   background: #f2f2f2;
   border-radius: 15px;
-  width: 800px;
+  /*width: 800px;*/
   height: 670px;
 }
 
 .h2-article {
   height: 564px;
-  width: 879px;
+  /*width: 879px;*/
   display: flex;
   flex-wrap: wrap;
   margin-left: 13px;
@@ -534,15 +567,14 @@ article {
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
-  margin-right: 90px;
   margin-top: 20px;
   margin-left: 0px;
-  width: 750px;
+  /*width: 750px;*/
   height: 600px;
 }
 .bloc-hotel-article {
   display: flex;
-  width: 769px;
+  /*width: 769px;*/
   height: 800px;
   flex-wrap: wrap;
   margin-left: -4px;
@@ -551,12 +583,13 @@ article {
 /* AUBERGE LA CANNEBIERE*/
 
 .auberge-cannebiere {
-  margin: 35px 0px 0px 30px;
-  width: 220px;
+  /*margin: 35px 0px 0px 30px;*/
+  /*width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 
 .auberge-cannebiere:hover {
@@ -587,21 +620,16 @@ article {
 /* HOTEL DU PORT*/
 
 .hotel-port {
-  margin: 35px 0px 0px 30px;
-  width: 220px;
+  /*margin: 35px 0px 0px 30px;*/
+  /*width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 .hotel-port:hover {
   transform: scale(1.1);
-}
-
-.du-port {
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px;
 }
 
 .p-hotel-port {
@@ -622,22 +650,17 @@ article {
 /* HOTEL LES MOUETTES*/
 
 .hotel-mouettes {
-  margin: 35px 0px 0px 30px;
-  width: 220px;
+  /*margin: 35px 0px 0px 30px;
+  width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 
 .hotel-mouettes:hover {
   transform: scale(1.1);
-}
-
-.les-mouettes {
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px;
 }
 
 .p-les-mouettes {
@@ -658,21 +681,16 @@ article {
 /* HOTEL DE LA MER*/
 
 .hotel-mer {
-  margin: 0px 0px 0px 30px;
-  width: 220px;
+  /*margin: 0px 0px 0px 30px;
+  width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 .hotel-mer:hover {
   transform: scale(1.1);
-}
-
-.la-mer {
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px;
 }
 
 .p-la-mer {
@@ -693,22 +711,18 @@ article {
 /* AUBERGE LE PANIER*/
 
 .auberge-panier {
-  margin: 0px 0px 0px 30px;
-  width: 220px;
+  /*margin: 0px 0px 0px 30px;
+  width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 .auberge-panier:hover {
   transform: scale(1.1);
 }
 
-.h-panier {
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px;
-}
 
 .p-auberge-panier {
   margin-left: 5px;
@@ -728,22 +742,18 @@ article {
 /* HOTEL CHEZ AMINA*/
 
 .hotel-amina {
-  margin: 0px 0px 0px 30px;
-  width: 220px;
+  /*margin: 0px 0px 0px 30px;
+  width: 220px;*/
   height: 210px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
   background: white;
+  overflow: hidden;
 }
 .hotel-amina:hover {
   transform: scale(1.1);
 }
 
-.h-amina {
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px;
-}
 .p-amina {
   margin-left: 5px;
   font-size: 15px;
@@ -767,13 +777,13 @@ article {
 /* ASIDE*/
 
 #section-aside {
-  width: 500px;
+  /*width: 500px;*/
   margin: 20px;
-  margin-left: 90px;
+  /*margin-left: 90px;*/
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-  height: 670px;
+  /*height: 670px;*/
   background: #f2f2f2;
 }
 
@@ -1006,7 +1016,7 @@ body > main:nth-child(2) > section:nth-child(2) {
 }
 
 .titre-activites > section:nth-child(1) {
-  width: 1280px;
+  /*width: 1280px;*/
 }
 
 div#activites {
@@ -1016,7 +1026,7 @@ div#activites {
 }
 
 .bloc-activites {
-  width: 1400px;
+  /*width: 1400px;*/
   margin-top: 100px;
   height: auto;
   display: flex;
@@ -1026,7 +1036,7 @@ div#activites {
 .titre-activites {
   margin-left: 31px;
   margin-top: 40px;
-  width: 1280px;
+  /*width: 1280px;*/
 }
 
 /* VIEUX-PORT*/
@@ -1167,7 +1177,7 @@ div#activites {
 
 footer {
   background: #f2f2f2;
-  width: 1480px;
+  /*width: 1480px;*/
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -1175,7 +1185,7 @@ footer {
 
 body > footer:nth-child(3) {
   margin-left: -125px;
-  width: 1631px;
+  /*width: 1631px;*/
 }
 body
   > footer:nth-child(3)
